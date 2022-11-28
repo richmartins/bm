@@ -13,7 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <title>{{ $title ?? 'Brasserie de Montelly' }}</title>
+    <title>{{ $title ?? "Brasserie de Montelly" }}</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" media="all" type="text/css">
 </head>
 

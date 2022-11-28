@@ -1,21 +1,38 @@
 @font-face {
     font-family: "Euclid";
-    src: url("/storage/fonti/EuclidSquare-Regular-WebS.woff2") format("woff2"),
+    src: url("/storage/font/EuclidSquare-Regular-WebS.woff2") format("woff2"),
         url("/storage/font/EuclidSquare-Regular-WebS.woff") format("woff");
 }
+
+@font-face {
+    font-family: "Euclid";
+    font-weight: bold;
+    src: url("/storage/font/EuclidSquare-Bold-WebS.woff2") format("woff2"),
+    url("/storage/font/EuclidSquare-Bold-WebS.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Euclid";
+    font-style: italic;
+    src: url("/storage/font/EuclidSquare-RegularItalic-WebS.woff2") format("woff2"),
+    url("/storage/font/EuclidSquare-RegularItalic-WebS.woff") format("woff");
+}
+
 html,
 body {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-family: "Euclid", sans-serif;
     background-color: rgb(248, 248, 248);
     margin: 0;
     padding: 0;
-    font-size: larger;
+    font-size: 17pt;
+    line-height: 17pt;
 }
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
     margin: 0;
     padding: 0;
 }
@@ -29,6 +46,10 @@ a:hover {
 }
 
 /**** HEADER BEGIN ****/
+nav {
+    user-select: none;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -107,7 +128,6 @@ section {
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 45vh;
 }
 
 .row {
@@ -139,50 +159,109 @@ section {
     width: 100%;
 }
 
-#desc-container > span {
-    padding: 10px;
-}
-
 .desc-img-container {
-    width: 60%;
+    width: 66%;
     border-right: 2px solid rgb(149, 149, 149);
     padding-right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
-.desc-img-container > img {
+.desc-text > p {
+    padding: 10px
+}
+#desc-bvn {
     width: 95%;
 }
+
+#desc-catels {
+    width: 70%;
+}
+
+.desc-img-container > img  {
+    margin: 1em 0;
+}
+
 .desc-text {
-    width: 30%;
+    width: 33%;
+    flex-grow: 1;
 }
 
 .row .lacarte,
 .row .entree,
 .row .plat {
     width: 33%;
-    padding: 10px;
 }
 
-.row .lacarte.col,
 .row .entree.col,
-.row .plat.col{
+.row .plat.col,
+.row .desserts.col {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+.row .lacarte.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 .row .lacarte svg,
 .row .entree svg,
-.row .plat svg{
+.row .plat svg,
+.row .desserts svg {
     max-height: 75px;
 
+}
+.container-carte-fleche-down {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-carte-fleche-down > img {
+    width: 40%;
 }
 
 .row .entree {
     border-right: 2px solid rgb(149, 149, 149);
     border-left: 2px solid rgb(149, 149, 149);
 }
+
+#menu_hebdo .row .col{
+}
+
+#menu_hebdo .row .desserts{
+    width: 33%;
+    border-right: 2px solid rgb(149,149,149);
+}
+
+
+#menu_hebdo .row .hebdo_menus{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hebdo_menus > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    border-bottom: 2px solid rgb(149,149,149);
+}
+
+.hebdo_menus > a > img {
+    max-width: 70%;
+}
+
+.hebdo_menus > a:last-child{
+    border-bottom: none;
+}
+
 
 /**** HOMEMAIN END ****/
 
@@ -217,3 +296,15 @@ footer {
     margin-right: 1em;
 }
 /**** FOOTER END ****/
+
+/**** RESPONSIVE ****/
+
+@media screen and (max-width: 730px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row div {
+        width: 100%!important;
+    }
+}

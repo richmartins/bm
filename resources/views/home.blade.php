@@ -172,14 +172,43 @@
     </section>
     <section id="contact">
         <div class="row">
-            <div class="coordinate"></div>
-            <div class="map"></div>
+            <div class="contact-txt col">
+                <img src="{{ asset("/storage/svg/contact.svg") }}" alt="contact-txt"/>
+            </div>
+            <div class="coordinate">
+                <span class="coordinate-container">
+                    <span class="coordinate-txt">
+                        <p>Chemin de Montelly 1,<br>1007 Lausanne</p>
+                        <p>Réservation uniquement<br>par téléphone</p>
+                        <p>070 000 00 00</p>
+                        <p>Logo insta</p>
+                    </span>
+                    <span class="coordinate-map-container">
+                        <iframe id="map-iframe"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10981.442072872293!2d6.6128475!3d46.5207674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x984fb36a79fb66d6!2sBrasserie%20de%20Montelly!5e0!3m2!1sen!2sch!4v1669664461824!5m2!1sen!2sch"
+                                style="border:0;" allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </span>
+                </span>
+            </div>
         </div>
     </section>
     <section id="sponsor">
         <div class="row">
-            <div class="sponsor-text"></div>
-            <div class="sponsor-logos"></div>
+            <div class="partenaire-txt col">
+                <img src="{{ asset('storage/svg/partenaires.svg') }}"
+                     alt="partenaire-section-txt"/>
+            </div>
+            <div class="sponsor-logos-container">
+                <span class="sponsor-card-deck">
+                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
+                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
+                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
+                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
+                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
+                </span>
+            </div>
         </div>
     </section>
 </x-layout>

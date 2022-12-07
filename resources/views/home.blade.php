@@ -33,11 +33,11 @@
                     ambiance d'antan et réuni plusieurs générations.<br><br>Suivant les moments de la journée, la
                     brasserie passe d'une ambiance de bistrot de quartier à un restaurant dans l'air du temps. La façade
                     en pierres du bâtiment accueille une grande terrasse fleurie et ensoleillée.<br><br>Cet
-                        établissement historique est labelisé « Café historique de Lausanne » depuis 2021.</span>
-                </p>
+                        établissement historique est labelisé « Café historique de Lausanne » depuis 2021.
+                    </p>
+                </span>
             </div>
         </div>
-    </section>
     </section>
     <section id="la_carte">
         <div class="row">
@@ -190,23 +190,6 @@
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </span>
-                </span>
-            </div>
-        </div>
-    </section>
-    <section id="sponsor">
-        <div class="row">
-            <div class="partenaire-txt col">
-                <img src="{{ asset('storage/svg/partenaires.svg') }}"
-                     alt="partenaire-section-txt"/>
-            </div>
-            <div class="sponsor-logos-container">
-                <span class="sponsor-card-deck">
-                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
-                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
-                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
-                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
-                    <img src=" {{ asset('storage/img/fake_sponso.png') }} "/>
                 </span>
             </div>
         </div>

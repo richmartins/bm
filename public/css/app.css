@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Euclid";
     src: url("/storage/font/EuclidSquare-Regular-WebS.woff2") format("woff2"),
-        url("/storage/font/EuclidSquare-Regular-WebS.woff") format("woff");
+    url("/storage/font/EuclidSquare-Regular-WebS.woff") format("woff");
 }
 
 @font-face {
@@ -28,6 +28,7 @@ body {
     font-size: 17pt;
     line-height: 17pt;
 }
+
 h1,
 h2,
 h3,
@@ -44,16 +45,21 @@ a {
     color: black;
     text-decoration: underline;
 }
+
 a:hover {
     cursor: pointer;
 }
 
 /**** HEADER BEGIN ****/
-nav {
+#mobile {
+    display: none
+}
+
+nav#nav-bar {
     user-select: none;
 }
 
-nav ul {
+nav#nav-bar ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -62,27 +68,28 @@ nav ul {
     height: 100%;
 }
 
-nav ul li {
+nav#nav-bar ul li {
     margin: 0 2em;
     display: flex;
     align-items: center;
 }
-nav ul li:hover {
+
+nav#nav-bar ul li:hover {
     cursor: pointer;
 }
 
-nav ul li img {
+nav#nav-bar ul li img {
     height: auto;
     max-height: 25px;
     object-fit: scale-down;
     width: 125px;
 }
 
-nav ul li:first-child {
+nav#nav-bar ul li:first-child {
     margin-left: 0;
 }
 
-nav ul li:last-child {
+nav#nav-bar ul li:last-child {
     margin-right: 0;
 }
 
@@ -90,7 +97,7 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 5vh;
+    min-height: 5vh;
     border-bottom: 2px solid rgb(149, 149, 149);
 }
 
@@ -171,9 +178,11 @@ section {
     justify-content: center;
     flex-direction: column;
 }
+
 .desc-text > p {
     padding: 10px
 }
+
 #desc-bvn {
     width: 95%;
 }
@@ -182,7 +191,7 @@ section {
     width: 70%;
 }
 
-.desc-img-container > img  {
+.desc-img-container > img {
     margin: 1em 0;
 }
 
@@ -200,13 +209,13 @@ section {
 .row .entree.col,
 .row .plat.col,
 .row .desserts.col,
-.row .contact-txt.col,
-.row .partenaire-txt.col {
+.row .contact-txt.col {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .row .lacarte.col {
     display: flex;
     flex-direction: column;
@@ -217,13 +226,10 @@ section {
 .row .lacarte svg,
 .row .entree svg,
 .row .plat svg,
-.row .contact-txt > img{
+.row .contact-txt > img {
     max-height: 75px;
 }
 
-.row .partenaire-txt.col > img {
-    /*max-width: 100%;*/
-}
 .container-carte-fleche-down {
     display: flex;
     justify-content: center;
@@ -240,14 +246,13 @@ section {
 }
 
 #menu_hebdo .row .desserts,
-#sponsor .row .partenaire-txt.col,
-#contact .row .contact-txt.col{
+#contact .row .contact-txt.col {
     width: 33%;
-    border-right: 2px solid rgb(149,149,149);
+    border-right: 2px solid rgb(149, 149, 149);
 }
 
 
-#menu_hebdo .row .hebdo_menus{
+#menu_hebdo .row .hebdo_menus {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -258,20 +263,20 @@ section {
     justify-content: center;
     align-items: center;
     height: 33%;
-    border-bottom: 2px solid rgb(149,149,149);
+    border-bottom: 2px solid rgb(149, 149, 149);
 }
 
 .hebdo_menus > a > img {
     max-width: 70%;
 }
 
-.hebdo_menus > a:last-child{
+.hebdo_menus > a:last-child {
     border-bottom: none;
 }
 
 .contact-txt {
     width: 33%;
-    border-right: 2px solid rgb(149,149,149);
+    border-right: 2px solid rgb(149, 149, 149);
 }
 
 .coordinate-txt {
@@ -304,23 +309,6 @@ section {
     height: 100%;
 }
 
-.sponsor-logos-container {
-    flex-grow: 1;
-}
-
-.sponsor-card-deck {
-    display: inline-grid;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    align-content: center;
-    gap: 1em;
-}
-
-.sponsor-logos-container .sponsor-card-deck img {
-    height: 90%;
-    width: 90%;
-    object-fit: scale-down;
-}
 /**** HOMEMAIN END ****/
 
 /**** FOOTER BEGIN ****/
@@ -350,19 +338,45 @@ footer {
     flex-direction: row;
     width: 100%;
 }
+
 .horaire-row > span:first-child {
     margin-right: 1em;
 }
+
 /**** FOOTER END ****/
 
 /**** RESPONSIVE ****/
 
 @media screen and (max-width: 730px) {
+
+    nav#nav-bar {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    img#toggle-nav{
+        width: 50px;
+    }
+
+    #mobile nav#mobile-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mobile ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
     .row {
         flex-direction: column;
     }
 
     .row div {
-        width: 100%!important;
+        width: 100% !important;
     }
 }

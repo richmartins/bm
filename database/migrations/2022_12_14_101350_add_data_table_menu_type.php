@@ -12,10 +12,16 @@ return new class extends Migration
      */
     public function up()
     {
-        DB::table('users')->insert([
-            'name' => 'admin',
-            'email' => 'admin@exemple.com',
-            'password' => 'changeme'
+        DB::table('menus_types')->insert([
+            'name' => 'semaine',
+        ]);
+
+        DB::table('menus_types')->insert([
+            'name' => 'saison',
+        ]);
+
+        DB::table('menus_types')->insert([
+            'name' => 'boisson',
         ]);
     }
 

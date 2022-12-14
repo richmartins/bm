@@ -16,8 +16,11 @@ return new class extends Migration
         Schema::create('menus', function (Blueprint $table) {
             $table->id();
             $table->string('pdf_path');
-            $table->bool('active');
-            $table->foreignKey('id_type')->contrained('menus_types');
+            $table->boolean('active');
+            $table->foreignId('id_type')
+                ->references('id')
+                ->on('menus_types')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

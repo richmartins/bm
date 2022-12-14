@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+// login
+
+
+Route::group(['prefix' => 'backoffice'], function() {
+    // logout
+
+    // dashboard
+
+    // upload new menu semaine
+    // upload new menu saison
+    // upload new menu boisson
+})->middleware('admin');

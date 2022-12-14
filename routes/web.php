@@ -18,14 +18,20 @@ Route::get('/', function () {
 });
 
 // login
+Route::get('login', function () {
+    return view('login');
+});
 
 
 Route::group(['prefix' => 'backoffice'], function() {
     // logout
 
     // dashboard
+    Route::get('dashboard', function(){
+        return view('dashboard');
+    });
 
     // upload new menu semaine
     // upload new menu saison
     // upload new menu boisson
-})->middleware('admin');
+})->middleware('auth:sanctum');

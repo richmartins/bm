@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,16 +23,17 @@ Route::get('login', function () {
     return view('login');
 });
 
+Route::post('login', [LoginController::class => 'authenticate'])->name('login');
+Route::get('logout', [LoginController::class => 'logout'])->name('logout');
 
-Route::group(['prefix' => 'backoffice'], function() {
-    // logout
-
-    // dashboard
-    Route::get('dashboard', function(){
-        return view('dashboard');
+Route::middleware('auth:sanctum')->group(function(){
+    Route::group(['prefix' => 'backoffice'], function (){
+        // dashboard
+        Route::get('dashboard', function(){
+            return view('dashboard');
+        });
+        // upload new menu semaine
+        // upload new menu saison
+        // upload new menu boisson
     });
-
-    // upload new menu semaine
-    // upload new menu saison
-    // upload new menu boisson
-})->middleware('auth:sanctum');
+});

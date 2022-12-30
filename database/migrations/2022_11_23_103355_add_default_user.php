@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 return new class extends Migration
 {
@@ -15,7 +16,7 @@ return new class extends Migration
         DB::table('users')->insert([
             'name' => 'admin',
             'email' => 'admin@exemple.com',
-            'password' => 'changeme'
+            'password' => Hash::make('changeme'),
         ]);
     }
 

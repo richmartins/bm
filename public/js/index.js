@@ -5,3 +5,16 @@ els.forEach((el) => {
         target.scrollIntoView({ behavior: "smooth" });
     });
 });
+
+
+const bgMenu = document.getElementById("bg-menu")
+
+bgMenu.addEventListener("click", (e) => {
+    const navBar = document.getElementById("nav-bar-ul")
+
+    if(navBar.classList.contains("display")) {
+        navBar.classList.remove("display")
+    } else {
+        navBar.classList.add("display")
+    }
+})

@@ -143,10 +143,6 @@ header {
 /**** HEADER END ****/
 
 /**** HOMEMAIN BEGIN ****/
-main img,
-main svg {
-    /*max-width: 70%;*/
-}
 
 section {
     width: 100%;
@@ -214,6 +210,7 @@ section {
 }
 
 #d-img-catels {
+    margin-top: 1em;
     width: 95%
 }
 
@@ -391,6 +388,10 @@ footer {
 
     #link-menus > a {
         padding: 2em 2em;
+    }
+
+    .w-img.col > img {
+        max-width: 95%;
     }
 
     #welcome > .row,

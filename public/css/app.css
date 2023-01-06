@@ -345,6 +345,9 @@ footer {
 }
 
 @media screen and (max-width: 730px) {
+    #logo-container {
+        height: 100%;
+    }
     nav#nav-bar ul {
         display: none;
     }

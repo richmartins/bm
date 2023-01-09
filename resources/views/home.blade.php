@@ -150,20 +150,13 @@
                     class="m-col-txt-img"
                     src="{{ asset('/storage/img/desserts.png') }}" alt="deserts-txt" />
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>CRèMES BRÛLéE À L'ORANGE</b><br>
                 </p>
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>TARTELETTE AU CITRON MERINGUéE</b><br>
                 </p>
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
-                </p>
-                <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>POIRE POCHéE AU CHOCOLAT ET SA GALCE VANILLE</b><br>
                 </p>
             </span>
             <span class="m-col col" id="link-menus">

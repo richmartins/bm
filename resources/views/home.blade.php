@@ -48,26 +48,38 @@
                 <p>Quand au bar, on y sert un assortiment de bières artisanales et de renommées ainsi que des cocktails du moment.</p>
                 <p>L’équipe dynamique et chaleureuse vous propose un expérience authentique d’une bonne table de bistrot sans prétentions</p>
             </span>
-            <span class="c-col col c-col-carte">
+            <span class="c-col col c-col-carte menu-font">
                 <span>
                     <img class="col-txt-img"
                          src="{{ asset('/storage/img/entree.png') }}"
                          alt="plats-txt"/>
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>SALADE JEUNES POUSSES</b><br>
                 </p>
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>SALADE MéLéE</b><br>
+                    <span class="green">
+                        CAROTTES, BETTERAVE, CéLéRI
+                    </span>
                 </p>
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>OS A MOELLE AU SEL DE L'HIMALAYA</b><br>
+                    <span class="green">
+                        BRIOCHE GRILLéE
+                    </span>
                 </p>
                 <p>
-                    <b>Entrecote</b><br>
-                    Entrecote 100% suisse servie avec frite salade
+                    <b>NOIX DE ST-JACQUES POÊLéES AUX AGRUMES</b><br>
+                    <span class="green">
+                        éMULSION CITRONNELLE, BRUNOISE DE LéGUMES CROQUANTES
+                    </span>
+                </p>
+
+                <p>
+                    <b>TARTARE DE BOEUF COUPé AU COUTEAU</b><br>
+                    <span class="green">
+                        FRITES MAISON, PAIN GRILLé
+                    </span>
                 </p>
 
                 </span>
@@ -77,26 +89,48 @@
                          alt="arrow-down"/>
                 </span>
             </span>
-            <span class="c-col col c-col-carte">
+            <span class="c-col col c-col-carte menu-font">
                 <span>
                     <img class="col-txt-img"
                          src="{{ asset('/storage/img/plats.png') }}"
                          alt="plats-txt"/>
                     <p>
-                        <b>Entrecote</b><br>
-                        Entrecote 100% suisse servie avec frite salade
+                        <b>FILET DE TRUITE ARC-EN-CIEL</b><br>
+                        <span class="green">SAUCE VIN BLANC, SéLECTION DE MINI LéGUMES, LENTILLES BéLUGA</span>
                     </p>
                     <p>
-                        <b>Entrecote</b><br>
-                        Entrecote 100% suisse servie avec frite salade
+                        <b>DEMI MAGRET DE CANARD</b><br>
+                        <span class="green">
+                            SAUCE BIGARADE, POMMES DE TERRE RISSOLéES, CAROTTES FANES
+                        </span>
                     </p>
                     <p>
-                        <b>Entrecote</b><br>
-                        Entrecote 100% suisse servie avec frite salade
+                        <b>MIGNONS DE VEAU</b><br>
+                        <span class="green">
+                            SAUCE AU MORILLES, TRILOGIE DE PANAIS, GRATIN, DAUPHINOIS
+                        </span>
                     </p>
                     <p>
-                        <b>Entrecote</b><br>
-                        Entrecote 100% suisse servie avec frite salade
+                        <b>FILET DE BOEUF</b><br>
+                        <span class="green">
+                            SAUCE AU POIVRE DE SARAWAK, FENOUIL BRAISé À L'ORANGE PURéE DE POMMES DE TERRE
+                        </span>
+                    </p>
+                    <p>
+                        <b>ENTRECÔTE PARISIENNE DE BOEUF <span class="green">- PLAT SIGNATURE</span></b><br>
+                        <span class="green">
+                            BEURE MONTELLY, FRITES MAISON, LéGUME DU MARCHé
+                        </span><br>
+                        <span class="red">
+                            <b>CE PLAT EST DISPONIBLE TOUS LES JOURS DE 10 À 22H NON-STOP</b>
+                        </span>
+                    </p>
+
+                    <p>
+                        <b>CURRY DE LéGUMES À LA CITRONELLE</b><br>
+                        <span class="green">
+                        DUO DE QUINOA ET MéLANGE DE NOIX TORRéFIéES
+                        </span>
                     </p>
 
                 </span>
@@ -111,7 +145,7 @@
     </section>
     <section id="menu">
         <div class="row">
-            <span class="m-col col">
+            <span class="m-col col menu-font">
                 <img
                     class="m-col-txt-img"
                     src="{{ asset('/storage/img/desserts.png') }}" alt="deserts-txt" />

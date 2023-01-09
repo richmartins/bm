@@ -18,6 +18,18 @@
     url("/storage/font/EuclidSquare-LightItalic-WebS.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Montecatini";
+    font-weight: bold;
+    src: url("/storage/font/MontecatiniPro-NormaleSemibold.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "Montecatini";
+    font-weight: normal;
+    src: url("/storage/font/MontecatiniPro-Normale.otf") format("opentype")
+}
+
 html,
 body {
     box-sizing: border-box;
@@ -50,6 +62,18 @@ a:hover {
 .social-link > img {
     height: 35px;
     width: auto;
+}
+
+.green {
+    color: #005d2c;
+}
+
+.red {
+    color: #cc5137;
+}
+
+.menu-font {
+    font-family: "Montecatini", serif;
 }
 
 /**** HEADER BEGIN ****/

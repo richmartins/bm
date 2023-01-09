@@ -26,13 +26,13 @@
             flex-direction: column;
             justify-content: center;
             width: 100%;
-            min-heigth: 100svh;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <main>
-        <h1>Ce site est actuellement sous maintenance. :-(</h1>
+        <h1>Ce site est actuellement en maintenance :-(</h1>
         <p>Veuillez revenir plus tard</p>
     </main>
 </body>

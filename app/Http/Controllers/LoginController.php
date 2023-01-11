@@ -2,34 +2,60 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreUser;
+use App\Rules\MatchOldPassword;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class LoginController extends Controller {
+class LoginController extends Controller
+{
 
     public function authenticate(Request $request)
     {
         $accred = [
-            'username' => $request->username,
+            'name' => $request->username,
             'password' => $request->password
         ];
 
-        if (Auth::attempt($accred)) {
+
+        if (auth()->attempt($accred)) {
             $request->session()->regenerate();
 
             return redirect()->intended('backoffice/dashboard');
         }
 
         return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ])->onlyInput('email');
+            'accred' => 'Username or password wrong.',
+        ])->onlyInput('username');
+    }
+
+    public function login(Request $request)
+    {
+        if (auth()->check()) {
+            $request->session()->regenerate();
+            return redirect()->intended('backoffice/dashboard');
+        }
+
+        return view('auth/login');
+    }
+
+    public function update(Request $request)
+    {
+        $request->validate([
+            'current_password' => ['required', new MatchOldPassword],
+            'new_password' => ['required'],
+            'new_confirm_password' => ['same:new_password', 'min:8'],
+        ]);
+
+        User::find(auth()->user()->id)->update(['password'=> Hash::make($request->new_password)]);
     }
 
     public function logout(Request $request)
     {
-        if(auth()->check()) {
+        if (auth()->check()) {
+            session()->flush();
             auth()->logout();
-            return redirect('/');
+            return redirect()->intended('/');
         }
 
         abort(404);

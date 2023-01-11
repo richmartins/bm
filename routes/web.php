@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BackofficeControler;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,21 +20,27 @@ Route::get('/', function () {
 });
 
 // login
-Route::get('login', function () {
-    return view('login');
-});
+Route::get('login', [LoginController::class, 'login'])->name('login-view');
+Route::post('login', [LoginController::class, 'authenticate'])->name('login');
 
-Route::post('login', [LoginController::class => 'authenticate'])->name('login');
-Route::get('logout', [LoginController::class => 'logout'])->name('logout');
+Route::get('logout', [LoginController::class, 'logout'])
+    ->name('logout')
+    ->middleware('auth');
+Route::post('update-profile', [LoginController::class, 'update'])
+    ->name('update-profile')
+    ->middleware('auth');
 
-Route::middleware('auth:sanctum')->group(function(){
-    Route::group(['prefix' => 'backoffice'], function (){
-        // dashboard
-        Route::get('dashboard', function(){
-            return view('dashboard');
-        });
-        // upload new menu semaine
-        // upload new menu saison
-        // upload new menu boisson
+Route::group([
+    'prefix'=>'backoffice',
+    'middleware' => 'auth'
+], function(){
+    // dashboard
+    Route::get('dashboard', function(){
+        return view('dashboard');
     });
+
+    // upload new menues
+    Route::post('menus/update', [BackofficeControler::class, 'update_menu'])
+        ->name('update_menu');
 });
+

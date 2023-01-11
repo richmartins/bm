@@ -32,7 +32,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p
+{
     margin: 0;
     padding: 0;
 }
@@ -122,42 +124,82 @@ header {
 
 /**** HEADER END ****/
 /**** BACKOFFICE BEGIN ****/
-.wrapper {
+.bo-wrapper {
     min-height: 80svh;
 }
 
 
 main {
     width: 100%;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 2em .5em 0;
 }
 
-.container {
-    width: 80%;
+.bo-container {
+    width: 90%;
     margin: 0 auto;
 }
 
-.form-group {
+.bo-form {
+    background-color: #a0aec0;
+    border: 1px solid #4a5568;
+    margin: 1em auto;
+    width: 90%;
+    border-radius: 2px;
+    padding: 1em .5em;
+}
+
+
+.bo-form-login-group {
     display: flex;
     margin: .7em 0;
     justify-content: center;
 }
 
-.form-group .label{
+.bo-form-group {
+    display: flex;
+    margin: .7em 0;
+    justify-content: flex-start;
+}
+
+.bo-form-submit-group {
+    display: flex;
+    margin: .7em 0;
+    justify-content: center;
+}
+.bo-login-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.bo-label {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.bo-form-group .bo-label{
     display: flex;
     justify-content: flex-end;
 }
 
-.form-group .input {
+.bo-form-group .bo-input {
     margin-left: 1em;
 }
 
-.btn-form {
+.bo-btn-form {
     appearance: none;
-    border: 2px solid rgb(149,149, 149);
-    background-color: rgb(149,149,149);
+    border: 2px solid #B0B0B0FF;
+    background-color: #B0B0B0FF;
     padding: .5em;
     color: #000;
     margin: .5em 1em;
@@ -165,11 +207,26 @@ main {
     font-size: 1em;
     font-family: "Euclid", sans-serif;
     text-decoration: none;
+    border-radius: 2px;
 }
 
-.btn-form:hover {
+.bo-btn-form:hover {
     cursor:pointer;
     color: green;
+}
+
+.bo-text-danger {
+    width: 100%;
+    display: flex;
+}
+
+.bo-text-danger > p {
+    margin:.5em auto;
+    background: #ff5b5b;
+    color: #edf2f7;
+    padding: .5em;
+
+    border-radius: 2px;
 }
 
 

@@ -33,9 +33,10 @@
 </head>
 <body>
     <main>
-        <h1>Error 503, :-(</h1>
+        <h1>Error 404, :-(</h1>
         <p>Oops, something went wrong !</p>
-        <p>Everything will be back soon</p>
+        <p>The page you want to access does not exists</p>
+        <p>click <a href="/">here</a> to go back to the website</p>
     </main>
 </body>
 </html>

@@ -56,26 +56,30 @@
 
     <form
         class="bo-form"
-        action=""
+        action="{{ route('update-profile') }}"
         method="post"
         name="update_user"
     >
         <p>Update user</p>
+        @if($errors->any())
+            {!! implode('', $errors->all('<span class="bo-text-danger"><p>:message</p></span>')) !!}
+        @endif
         @csrf
         <span
             class="bo-form-group"
         >
                 <label
-                    for="new_menu_boissons"
+                    for="name"
                     class="bo-label"
                 >
                     Username
                 </label>
                 <input
-                    id="new_menu_boissons"
+                    id="name"
                     class="bo-input"
                     name="name"
                     type="text"
+                    value="{{ $name }}"
                     required
                 />
         </span>
@@ -84,16 +88,17 @@
             class="bo-form-group"
         >
                 <label
-                    for="new_menu_boissons"
+                    for="email"
                     class="bo-label"
                 >
                     Email
                 </label>
                 <input
-                    id="new_menu_boissons"
+                    id="email"
                     class="bo-input"
                     name="email"
                     type="email"
+                    value="{{ $email }}"
                     required
                 />
         </span>
@@ -102,17 +107,16 @@
             class="bo-form-group"
         >
                 <label
-                    for="new_menu_boissons"
+                    for="current_password"
                     class="bo-label"
                 >
                    Old password
                 </label>
                 <input
-                    id="new_menu_boissons"
+                    id="current_password"
                     class="bo-input"
-                    name="old_password"
+                    name="current_password"
                     type="password"
-                    required
                 />
         </span>
 
@@ -120,17 +124,16 @@
             class="bo-form-group"
         >
                 <label
-                    for="new_menu_boissons"
+                    for="password"
                     class="bo-label"
                 >
                    New password
                 </label>
                 <input
-                    id="new_menu_boissons"
+                    id="password"
                     class="bo-input"
                     name="password"
                     type="password"
-                    required
                 />
         </span>
 
@@ -138,17 +141,16 @@
             class="bo-form-group"
         >
                 <label
-                    for="new_menu_boissons"
+                    for="password_confirmation"
                     class="bo-label"
                 >
                    Confirm password
                 </label>
                 <input
-                    id="new_menu_boissons"
+                    id="password_confirmation"
                     class="bo-input"
                     name="password_confirmation"
                     type="password"
-                    required
                 />
         </span>
 

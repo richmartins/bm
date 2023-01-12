@@ -34,10 +34,9 @@ Route::group([
     'prefix'=>'backoffice',
     'middleware' => 'auth'
 ], function(){
+
     // dashboard
-    Route::get('dashboard', function(){
-        return view('dashboard');
-    });
+    Route::get('dashboard', [BackofficeControler::class, 'index'])->name('dashboard');
 
     // upload new menues
     Route::post('menus/update', [BackofficeControler::class, 'update_menu'])

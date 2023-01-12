@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreUser;
+use App\Models\User;
 use App\Rules\MatchOldPassword;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
@@ -42,12 +44,22 @@ class LoginController extends Controller
     public function update(Request $request)
     {
         $request->validate([
-            'current_password' => ['required', new MatchOldPassword],
-            'new_password' => ['required'],
-            'new_confirm_password' => ['same:new_password', 'min:8'],
+            'name' => ['string'],
+            'email' => ['email'],
+            'current_password' => ['nullable', new MatchOldPassword],
+            'new_password' => ['required_if:current_password,string'],
+            'new_confirm_password' => ['required_if:new_password,string','same:new_password', 'min:8'],
         ]);
 
-        User::find(auth()->user()->id)->update(['password'=> Hash::make($request->new_password)]);
+        $user = User::find(auth()->user()->id);
+
+        $user->update([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password)
+        ]);
+
+        return redirect()->back()->with(['success' => 'user updated successfully']);
     }
 
     public function logout(Request $request)
@@ -55,7 +67,7 @@ class LoginController extends Controller
         if (auth()->check()) {
             session()->flush();
             auth()->logout();
-            return redirect()->intended('/');
+            return redirect()->intended();
         }
 
         abort(404);

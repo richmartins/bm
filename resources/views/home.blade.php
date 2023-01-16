@@ -26,13 +26,19 @@
             </span>
             <span class="d-txt col">
                 <p>
-                Ce café-restaurant charismatique marque depuis 1929 le croisement des quartiers
-                de Montoie et de Montelly.<br><br>Son intérieur sobre s'étend sur un espace en demi-lune éclairé par
-                de grande baies vitrées. Les boiseries murales ainsi que le parquet au sol restituent une belle
-                ambiance d'antan et réuni plusieurs générations.<br><br>Suivant les moments de la journée, la
-                brasserie passe d'une ambiance de bistrot de quartier à un restaurant dans l'air du temps. La façade
-                en pierres du bâtiment accueille une grande terrasse fleurie et ensoleillée.<br><br>Cet
-                    établissement historique est labelisé « Café historique de Lausanne » depuis 2021.
+                    Le montelly, est un café-restaurant ouvert en 1929, au croisement des quartiers de Montoie et de Montelly.
+                </p>
+                <p>
+                    Son intérieur sobre et accueillant, en demi-lune, éclairé par de grandes baies vitrées, a conservé son toute son authenticité. Les boiseries murales ainsi que le parquet accentuent le charme evident du café et contribuent à la belle ambiance des lieux.
+                </p>
+                <p>
+                   Suivant les moments de la journée, la brasserie passe d'une ambiance de bistrot de quartier, à celle d'un restaurant dans l'air du temps. Dès les beaux jours,  la façade en pierres de taille ajoute son décor à notre grande terrasse fleurie et ensoleillée.
+                </p>
+                <p>
+                    Cet établissement historique est labelisé « Café historique de Lausanne » depuis 2021.
+                </p>
+                <p>
+                    Depuis près d'un siècle, les générations se succèdent au montelly, pour le bonheur des amoureux du quartier.
                 </p>
             </span>
         </div>
@@ -43,10 +49,24 @@
                     <img class="col-txt-img"
                          src="{{ asset('/storage/img/la_carte.png') }}"
                          alt="plats-txt"/>
-                <p>A midi, des plats de semaine s’inspirent des mets de brasserie classiques et le soir des plats de saison mettent en valeur les produits artisanaux sélectionnés avec soin.</p>
-                <p>Pour accompagner cette cuisine gourmande vous pouvez déguster de merveilleux vins de la région ainsi que des grands crus.</p>
-                <p>Quand au bar, on y sert un assortiment de bières artisanales et de renommées ainsi que des cocktails du moment.</p>
-                <p>L’équipe dynamique et chaleureuse vous propose un expérience authentique d’une bonne table de bistrot sans prétentions</p>
+                <p>
+                    NOTRE OFFRE
+                </p>
+                <p>
+                    À midi, nous proposons des plats différents chaque semaine. Des classiques de brasserie traditionnelle  et des plats régionaux, toujours de saison.
+                </p>
+                <p>
+                    Le soir, notre carte varie et s'agrandit dans le même esprit.<br>Notre défi : mette en valeur Des produits artisanaux et locaux, sélectionnés avec soin.
+                </p>
+                <p>
+                    Pour accompagner cette cuisine gourmande, vous pouvez déguster de merveilleux vins de la région ainsi que de grands crus.
+                </p>
+                <p>
+                    Quant au bar, on y sert un assortiment de bières artisanales et de renommées ainsi que des cocktails du moment.
+                </p>
+                <p>
+                    L'équipe dynamique et chaleureuse vous propose L'expérience séduisante d'une très bonne table de bistrot, avec le soin et la qualité au quotidien.<br>Bienvenue à vous !
+                </p>
             </span>
             <span class="c-col col c-col-carte menu-font">
                 <span>

@@ -7,7 +7,7 @@
             <b>Horaire</b><br>
             <div class="horaire-row">
                 <span>Lundi - Samedi</span>
-                <span><b>12h - 00h</b></span>
+                <span><b>07h30 - 00h00</b></span>
             </div>
             <div class="horaire-row">
                 <span>Dimanche</span>

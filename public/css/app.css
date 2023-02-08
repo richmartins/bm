@@ -39,6 +39,7 @@ body {
     padding: 0;
     font-size: 17pt;
     line-height: 17pt;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -87,19 +88,21 @@ nav#nav-bar {
 
 nav#nav-bar ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
     margin: 0;
     padding: 0;
     height: 100%;
+
+    display: inline-grid;
+    grid-template-columns: 175px 175px 175px;
+    grid-column-gap: 3rem;
 }
 
 nav#nav-bar ul li {
-    align-items: center;
-    margin: 0 2em;
-    display: flex;
-    width: 25%;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -111,6 +114,8 @@ nav#nav-bar ul li {
     transition: fill 0.2s;
 }
 
+
+#nav-bar li:hover svg path,
 #nav-bar li:hover svg {
     fill: #005d2c;
 }
@@ -212,6 +217,7 @@ section {
 
 .w-img > * {
     margin: 0 auto;
+    width: 100%;
 }
 
 .w-txt {
@@ -290,6 +296,13 @@ img.c-col-catel {
 #link-menus > a {
     border-bottom: 2px solid rgb(149, 149, 149);
     padding: 2em;
+    display: flex;
+}
+
+#link-menus > a svg {
+    height: 50%;
+    margin: 0 auto;
+    width: 100%;
 }
 
 #link-menus > a:last-child {
@@ -418,6 +431,11 @@ footer {
 
     #link-menus > a {
         padding: 2em 2em;
+        display: unset;
+    }
+    #link-menus > a svg {
+        height: unset;
+        margin: unset;
     }
 
     .w-img.col > img {

@@ -77,13 +77,13 @@
                     <p>
                         <b>SALADE MéLée</b><br>
                         <span class="green">
-                            CAROTTES, BETTERAVE, CéLéRI
+                            CAROTTES, BETTERAVE, CéLéRIS
                         </span>
                     </p>
                     <p>
-                         <b>RAVIOLIS AUX CIRTONS ET RICOTTA</b><br>
+                        <b>SALADE DE MALAKOFFS MAISON <span class="red">ENTRéE / PLAT</span></b><br>
                         <span class="green">
-                            MASCARPONE ET CITRON CONFITS
+                            SALADE DE JEUNES POUSSES, PICKLES DE RADIS, MéLANGE DE NOIX CARAMéLISéES, VINAIGRETTE À LA VANILLE
                         </span>
                     </p>
                     <p>
@@ -93,10 +93,13 @@
                         </span>
                     </p>
                     <p>
-                        <b>GRAVLAX DE SAUMON À LA BETTERAVE</b>
+                        <b>POIREAU VINAIGRETTE</b><br>
+                        <span class="green">
+                            DéCLINAISON DE POIREAU, EN PURéE, RACINE ET CHIPS
+                        </span>
                     </p>
                     <p>
-                        <b>TARTARE DE BOEUF COUPé AU COUTEAU</b><br>
+                        <b>TARTARE DE BOEUF COUPé AU COUTEAU <span class="red">ENTRéE / PLAT</span></b><br>
                         <span class="green">
                             FRITES MAISON, PAIN GRILLé
                         </span>
@@ -119,18 +122,16 @@
                             FENOUILS CARAMÉLISÉS ET LEURS PICKLES, RIZ VÉNÉRÉ
                         </span>
                     </p>
-
-                    <p>
-                        <b>MIGNONS DE VEAU</b><br>
-                        <span class="green">
-                            SAUCE AUX MORiLLES, TRiLOGiE DE PANAiS, POMMES GRENAiLLE
-                        </span>
+                    <p><b>CÔTE DE BOEUF RASSIS SUR OS</b><span class="green"> 300 GR</span><br>
+                        <span class="green">2 CHOIX DE GARNITURES, SAUVE BORDELAISE</span>
                     </p>
                     <p>
-                        <b>DEMI-COQUELET SUISSE DE LA BOUCHERIE STUBY</b><br>
-                        <span class="green">
-                            JUS DE CUiSSON RÉDUiT, CHiPS MAiSON, CAROTTES FANES
-                        </span>
+                        <b>CARRé D'AGNEAU AU THYM ET MIEL</b><br>
+                        <span class="green">MOUSSELINE DE POMMES DE TERRE, FAGOTS DE HARICOTS</span>
+                    </p>
+                    <p>
+                        <b>RAVIOLIS RICOTTA éPINARDS DE CHEZ MAURO</b><br>
+                        <span class="green">PIGNONS TORRéFIéS, JEUNES POUSSES D'éPINARDS</span>
                     </p>
                     <p>
                         <b>ENTRECÔTE PARISIENNE DE BOEUF <span class="green">- PLAT SIGNATURE</span></b><br>
@@ -138,16 +139,15 @@
                             BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON
                         </span><br>
                         <span class="red">
-                            <b>CE PLAT EST DISPONIBLE TOUS LES JOURS DE 10 À 22H NON-STOP</b>
+                            <b>DE 10 À 22H NON-STOP</b>
                         </span>
                     </p>
 
                     <p>
-                        <b>DAHL DE LENTILLES À LA COURGE ET AUX ÉPINARDS</b>
-                        <span class="green">
-                            SAUCE À LA COURGE ET POIS CHICHES TORRÉFIÉS
-                        </span>
+                        <b>CORDON BLEU <span class="red">PORC OU VOLAILLE</span></b><br>
+                        <span class="green">POMMES GRENAILLE, CAROTTES GLACéES DU MARCHé CUENDET</span>
                     </p>
+
 
                 </span>
 
@@ -173,10 +173,11 @@
                     </span>
                 </p>
                 <p>
-                    <b>TARTELETTE CHOCOLAT CARAMEL BEURRE SALÉ</b>
+                    <b>TARTELETTE TARTELETTE À LA POMME REVISITéE</b><br>
+                    <span class="green">PURéE DE POMMES À LA VANILLE, DéS DE POMMES AU SIROP</span>
                 </p>
                 <p>
-                    <b>PANA COTTA AUX FRUITS DE LA PASSION</b><br>
+                    <b>RIZ AU LAIT DE COCO</b><br>
                 </p>
             </span>
             <span class="m-col col" id="link-menus">

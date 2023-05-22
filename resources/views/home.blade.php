@@ -82,28 +82,29 @@
                     <p>
                         <b>SALADE MéLée de saison</b><br>
                         <span class="green">
-                            CAROTTES, BETTERAVE, CéLéRIS
+                            CAROTTES, BETTERAVE, fenouils
                         </span>
                     </p>
                     <p>
                         <b>SALADE DE MALAKOFFS MAISON <span class="red">ENTRéE / PLAT</span></b><br>
-                        <span class="green">
-                            SALADE DE JEUNES POUSSES, PICKLES DE RADIS, MéLANGE DE NOIX CARAMéLISéES, VINAIGRETTE À LA
-                            VANILLE
-                        </span>
+                        <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix
+                            caramélisées, vinaigrette à la vanille</span>
                     </p>
                     <p>
                         <b> escargots du mont d'or en coquilles</b><br>
-                        <span class="green">beurre aux herbes 6 pièces / 12 pièces</span>
+                        <span class="green">beurre aux herbes <span class="red">6 pièces</span></span>
                     </p>
                     <p>
                         <b>OS A MOELLE AU SEL DE L'HIMALAYA</b><br>
                         <span class="green">
-                            BRIOCHE GRILLéE
+                            BRIOCHE GRILLéE, crumble à l'ail des ours
                         </span>
                     </p>
                     <p>
-                        <b>DUO D'ASPERGES ET SA SAUCE HOLLANDAISE MAISON</b>
+                        <b>filet de maquereau à la flamme</b><br>
+                        <span class="green">
+                            coulis de poivrons rouges, gaspacho de macadamia, croustillant à l'olive noire
+                        </span>
                     </p>
                     <p>
                         <b>TARTARE DE BOEUF COUPé AU COUTEAU <span class="red">ENTRéE / PLAT</span></b><br>
@@ -124,21 +125,28 @@
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>côte de veau fermière aux morilles 300 gr</b>
-                        <br>
-                        <span class="green">radis rose et daykon du marché cuendet mousseline de pommes de terre</span>
+                        <b>tataki de boeuf aux saveurs asiatiques</b><br>
+                        <span class="green">
+                            pommes chips maison, suprême d'agrumes brûlés
+                        </span>
                     </p>
                     <p>
-                        <b>onglet de bœuf chimichurri</b><br>
-                        <span class="green">pommes grenailles</span>
+                        <b>suprême de poulet jaune des landes au marsala</b><br>
+                        <span class="green">
+                            polenta au mascarpone , déclinaison de petits pois, c0eur d'artichauts rouges
+                        </span>
                     </p>
                     <p>
-                        <b>filets de perches suisses meunière 210gr</b><br>
-                        <span class="green">pommes nature, carottes glacées, beurre blanc au dézaley</span>
+                        <b>filets de perche suisses meunière 210gr</b><br>
+                        <span class="green">
+                            c0urgettes et sa fleur du marché cuendet, pommes nature, beurre blanc au dézaley
+                        </span>
                     </p>
                     <p>
-                        <b>tomber de gnocchi maison aux petits pois</b><br>
-                        <span class="green">déclinaison printanière de légumes verts</span>
+                        <b>raviolis de mauro aux asperges</b><br>
+                        <span class="green">
+                            beurre de sauge, déclinaison d'asperges blanches et vertes
+                        </span>
                     </p>
                     <p>
                         <b>ENTRECÔTE PARISIENNE DE BOEUF <span class="green">- PLAT SIGNATURE</span></b><br>
@@ -175,7 +183,7 @@
                 <p>
                     <b>sélection de sorbets de l'artisan glacier / la boule</b><br>
                     <span class="green">
-                        vanille bourbon, verveine, mangue, cardamone, miel, citron bergamote
+                        vanille bourbon, verveine, mangue, cardamome, miel, citron bergamote
                     </span>
                 </p>
                 <p>
@@ -183,7 +191,10 @@
                     <span class="green">sauce au chocolat</span>
                 </p>
                 <p>
-                    <b>c0mposition aut0ur du miel et de l'hibiscus</b><br>
+                    <b>crème brulée à la pistache</b><br>
+                </p>
+                <p>
+                    <b>panna c0tta fraise et rhubarbee</b><br>
                 </p>
             </span>
             <span class="m-col col"

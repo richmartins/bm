@@ -99,7 +99,7 @@
                         <span class="green">
                             beurre aux herbes
                         </span>
-                        <span class="red"> 6 pieces</span>
+                        <span class="red"> 6 pièces</span>
                     </p>
                     <p>
                         <b>Os à la moelle au sel de l'himalaya</b><br>
@@ -132,7 +132,7 @@
                     </p>
 
                     <p>
-                        <b>Pouple grillé vierge de saison </b><br>
+                        <b>Pouple grillé, vierge de saison </b><br>
                         <span class="green">
                             Pommes grenailles, crumble de chorizon
                         </span>
@@ -193,7 +193,7 @@
                     <b>notre belle sélection de fromages</b><br>
                 </p>
                 <p>
-                    <b>affocato À la noisette</b><br>
+                    <b>affogato à la noisette</b><br>
                 </p>
             </span>
             <span class="m-col col"

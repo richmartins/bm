@@ -80,37 +80,36 @@
                         src="{{ asset('/storage/img/entree.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>SALADE MéLée de saison</b><br>
+                        <b>salade de jeunes pousses</b>
+                    </p>
+                    <p>
+                        <b>Belle salade mêlée de saison</b><br>
                         <span class="green">
-                            CAROTTES, BETTERAVE, fenouils
+                            courgettes, tomates du marché cuendet et c0nc0mbre
                         </span>
                     </p>
                     <p>
-                        <b>SALADE DE MALAKOFFS MAISON <span class="red">ENTRéE / PLAT</span></b><br>
-                        <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix
-                            caramélisées, vinaigrette à la vanille</span>
-                    </p>
-                    <p>
-                        <b> escargots du mont d'or en coquilles</b><br>
-                        <span class="green">beurre aux herbes <span class="red">6 pièces</span></span>
-                    </p>
-                    <p>
-                        <b>OS A MOELLE AU SEL DE L'HIMALAYA</b><br>
+                        <b>Sardines fraîches marinées à l'huile</b><br>
                         <span class="green">
-                            BRIOCHE GRILLéE, crumble à l'ail des ours
+                            SEIGLE, TOMATES fraîches
                         </span>
                     </p>
                     <p>
-                        <b>filet de maquereau à la flamme</b><br>
+                        <b>ESGARGoTS DU MONT D'OR EN COQUILLES</b><br>
                         <span class="green">
-                            coulis de poivrons rouges, gaspacho de macadamia, croustillant à l'olive noire
+                            beurre aux herbes
+                        </span>
+                        <span class="red"> 6 pieces</span>
+                    </p>
+                    <p>
+                        <b>Os à la moelle au sel de l'himalaya</b><br>
+                        <span class="green">
+                            brioche grillée, crumble à l'ail des ours
                         </span>
                     </p>
                     <p>
-                        <b>TARTARE DE BOEUF COUPé AU COUTEAU <span class="red">ENTRéE / PLAT</span></b><br>
-                        <span class="green">
-                            FRITES MAISON, PAIN GRILLé
-                        </span>
+                        <b>Tartare de boeuf coupé au couteau <span class="red">entrée / plat</span></b><br>
+                        <span class="green">frites maison, pain grillé</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -124,45 +123,42 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
+
                     <p>
-                        <b>tataki de boeuf aux saveurs asiatiques</b><br>
+                        <b>Tournedos de boeuf 250 GR et sa pêche poêlée</b><br>
                         <span class="green">
-                            pommes chips maison, suprême d'agrumes brûlés
-                        </span>
-                    </p>
-                    <p>
-                        <b>suprême de poulet jaune des landes au marsala</b><br>
-                        <span class="green">
-                            polenta au mascarpone , déclinaison de petits pois, c0eur d'artichauts rouges
-                        </span>
-                    </p>
-                    <p>
-                        <b>filets de perche suisses meunière 210gr</b><br>
-                        <span class="green">
-                            c0urgettes et sa fleur du marché cuendet, pommes nature, beurre blanc au dézaley
-                        </span>
-                    </p>
-                    <p>
-                        <b>raviolis de mauro aux asperges</b><br>
-                        <span class="green">
-                            beurre de sauge, déclinaison d'asperges blanches et vertes
-                        </span>
-                    </p>
-                    <p>
-                        <b>ENTRECÔTE PARISIENNE DE BOEUF <span class="green">- PLAT SIGNATURE</span></b><br>
-                        <span class="green">
-                            BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON
-                        </span><br>
-                        <span class="red">
-                            <b>DE 10 À 22H NON-STOP</b>
+                            courgette beurre du marché cuendet
                         </span>
                     </p>
 
                     <p>
-                        <b>CORDON BLEU <span class="red">PORC OU VOLAILLE</span></b><br>
-                        <span class="green">POMMES GRENAILLE, CAROTTES GLACéES DU MARCHé CUENDET</span>
+                        <b>Pouple grillé vierge de saison </b><br>
+                        <span class="green">
+                            Pommes grenailles, crumble de chorizon
+                        </span>
                     </p>
+                    <p>
+                        <b>Filets de perche suisse meunière 210 GR</b><br>
+                        <span class="green">
+                            Courgettes et sa fleur du marché cuendet.<br>
+                            Pommes Nature, beurre blanc au dézaley
+                        </span>
+                    </p>
+                    <p>
+                        <b>entrecôte parisienne de boeuf - <span class="green">Plat signature</span></b><br>
+                        <span class="green">beurre montelly, frites maison, légumes de saison</span><br>
+                        <span class="red">de 10 à 22H non-stop</span>
+                    </p>
+                    <p>
+                        <b>Cordon bleu maison<b> <br>
+                                <span class="green">pommes grenailles, légumes de saison du marché cuendet</span>
+                    </p>
+                    <p>
+                        <b>Salade de malakoffs maison <span class="red">entrée / plat</span></b><br>
+                        <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix
+                            caramélisées, vinaigrette à la vanille</span>
 
+                    </p>
 
                 </span>
 
@@ -183,7 +179,7 @@
                 <p>
                     <b>sélection de sorbets de l'artisan glacier / la boule</b><br>
                     <span class="green">
-                        vanille bourbon, verveine, mangue, cardamome, miel, citron bergamote
+                        verveine, miel, poire, mangue, citron bergamote, gardamome
                     </span>
                 </p>
                 <p>
@@ -191,10 +187,13 @@
                     <span class="green">sauce au chocolat</span>
                 </p>
                 <p>
-                    <b>crème brulée à la pistache</b><br>
+                    <b>crème brulée aux fruits rouges</b><br>
                 </p>
                 <p>
-                    <b>panna c0tta fraise et rhubarbee</b><br>
+                    <b>notre belle sélection de fromages</b><br>
+                </p>
+                <p>
+                    <b>affocato À la noisette</b><br>
                 </p>
             </span>
             <span class="m-col col"

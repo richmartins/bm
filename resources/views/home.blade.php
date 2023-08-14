@@ -91,7 +91,7 @@
                     <p>
                         <b>Sardines fraîches marinées à l'huile</b><br>
                         <span class="green">
-                            SEIGLE, TOMATES fraîches
+                            Seigle, tomates fraîches
                         </span>
                     </p>
                     <p>
@@ -138,6 +138,12 @@
                         </span>
                     </p>
                     <p>
+                        <b>Demi aubergine confit aux thym et miel</b>
+                        <span class="green">
+                            vierge de tomate, taboulé maison, croustillants d'olive noir
+                        </span>
+                    </p>
+                    <p>
                         <b>Filets de perche suisse meunière 210 GR</b><br>
                         <span class="green">
                             Courgettes et sa fleur du marché cuendet.<br>
@@ -156,10 +162,9 @@
                     <p>
                         <b>Salade de malakoffs maison <span class="red">entrée / plat</span></b><br>
                         <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix
-                            caramélisées, vinaigrette à la vanille</span>
-
+                            caramélisées, vinaigrette à la vanille
+                        </span>
                     </p>
-
                 </span>
 
                 <span class="c-col-carte-img-container">

@@ -85,13 +85,7 @@
                     <p>
                         <b>Belle salade mêlée de saison</b><br>
                         <span class="green">
-                            courgettes, tomates du marché cuendet et c0nc0mbre
-                        </span>
-                    </p>
-                    <p>
-                        <b>Sardines fraîches marinées à l'huile</b><br>
-                        <span class="green">
-                            Seigle, tomates fraîches
+                            bettraves chic gia, endives céleri bouie
                         </span>
                     </p>
                     <p>
@@ -102,7 +96,7 @@
                         <span class="red"> 6 pièces</span>
                     </p>
                     <p>
-                        <b>Os à la moelle au sel de l'himalaya</b><br>
+                        <b>os à moelle au sel noir black lava</b><br>
                         <span class="green">
                             brioche grillée, crumble à l'ail des ours
                         </span>
@@ -110,6 +104,18 @@
                     <p>
                         <b>Tartare de boeuf coupé au couteau <span class="red">entrée / plat</span></b><br>
                         <span class="green">frites maison, pain grillé</span>
+                    </p>
+                    <p>
+                        <b>gaspacho de poivrons du marché cuendet</b><br>
+                        <span class="green">huile de love at ollo, bouquet aromatique</span>
+                    </p>
+                    <p>
+                        <b>foie de veau sauté aux framboises</b><br>
+                        <span class="green">saladine du marché cuendet, fruits à cooue torréfiées</span>
+                    </p>
+                    <p>
+                        <b>filets de perche suisse meunière <span class="red">entrée</span></b><br>
+                        <span class="green">petite salade verte, beurre blanc au dézaley</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -125,23 +131,16 @@
                         alt="plats-txt" />
 
                     <p>
-                        <b>Tournedos de boeuf 250 GR et sa pêche poêlée</b><br>
-                        <span class="green">
-                            courgette beurre du marché cuendet
-                        </span>
-                    </p>
-
-                    <p>
-                        <b>Pouple grillé, vierge de saison </b><br>
-                        <span class="green">
-                            Pommes grenailles, crumble de chorizon
-                        </span>
+                        <b>filet de boeuf au poivre vert</b>
+                        <span class="green">oignons confits, mesclun d'epinards, pommes mousseline</span>
                     </p>
                     <p>
-                        <b>Demi aubergine confit aux thym et miel</b>
-                        <span class="green">
-                            vierge de tomate, taboulé maison, croustillants d'olive noir
-                        </span>
+                        <b>volaile à pâte noire de la gruyère sauce moutarde</b><br>
+                        <span class="green">purée de potimarron et son chutney de courge riz vénéré</span>
+                    </p>
+                    <p>
+                        <b>trilogie de tomate du marghé et bouquet aromatique</b>
+                        <span class="green">éeches poélées, perie de citron caviar et pesto de pistache maison</span>
                     </p>
                     <p>
                         <b>Filets de perche suisse meunière 210 GR</b><br>
@@ -157,7 +156,7 @@
                     </p>
                     <p>
                         <b>Cordon bleu maison<b> <br>
-                                <span class="green">pommes grenailles, légumes de saison du marché cuendet</span>
+                        <span class="green">pommes grenailles, légumes de saison du marché cuendet</span>
                     </p>
                     <p>
                         <b>Salade de malakoffs maison <span class="red">entrée / plat</span></b><br>
@@ -182,23 +181,20 @@
                     src="{{ asset('/storage/img/desserts.png') }}"
                     alt="deserts-txt" />
                 <p>
-                    <b>sélection de sorbets de l'artisan glacier / la boule</b><br>
-                    <span class="green">
-                        verveine, miel, poire, mangue, citron bergamote, gardamome
-                    </span>
+                    <b>sélection de glace de l'artisan glacier</b><br/>
+                    <span class="green">vanille, bourbon, mangue, verveine, framboise, mandarine citron bergamote, noisette</span>
                 </p>
                 <p>
                     <b>profiteroles chocolat vanille</b><br>
-                    <span class="green">sauce au chocolat</span>
                 </p>
                 <p>
-                    <b>crème brulée aux fruits rouges</b><br>
+                    <b>crème brûlée à la fleur d'oranger</b><br>
                 </p>
                 <p>
-                    <b>notre belle sélection de fromages</b><br>
+                    <b>meringue et sa double crème, mélange de fruits rouges</b><br>
                 </p>
                 <p>
-                    <b>affogato à la noisette</b><br>
+                    <b>pana cotta à l'abricot du valais</b><br>
                 </p>
             </span>
             <span class="m-col col"

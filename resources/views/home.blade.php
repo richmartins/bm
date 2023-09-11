@@ -154,7 +154,7 @@
                         <span class="red">de 10 à 22H non-stop</span>
                     </p>
                     <p>
-                        <b>Cordon bleu maison<b> <br>
+                        <b>Cordon bleu maison</b> <br>
                         <span class="green">pommes grenailles, légumes de saison du marché cuendet</span>
                     </p>
                     <p>

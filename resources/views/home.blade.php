@@ -85,11 +85,11 @@
                     <p>
                         <b>Belle salade mêlée de saison</b><br>
                         <span class="green">
-                            bettraves chic gia, endives céleri bouie
+                            bettraves chioggia, endives céleri boule
                         </span>
                     </p>
                     <p>
-                        <b>ESGARGoTS DU MONT D'OR EN COQUILLES</b><br>
+                        <b>escargots du mont d'or en coquilles</b><br>
                         <span class="green">
                             beurre aux herbes
                         </span>
@@ -107,11 +107,11 @@
                     </p>
                     <p>
                         <b>gaspacho de poivrons du marché cuendet</b><br>
-                        <span class="green">huile de love at ollo, bouquet aromatique</span>
+                        <span class="green">huile de love at olio, bouquet aromatique</span>
                     </p>
                     <p>
                         <b>foie de veau sauté aux framboises</b><br>
-                        <span class="green">saladine du marché cuendet, fruits à cooue torréfiées</span>
+                        <span class="green">saladine du marché cuendet, fruits à coque torréfiées</span>
                     </p>
                     <p>
                         <b>filets de perche suisse meunière <span class="red">entrée</span></b><br>
@@ -132,21 +132,20 @@
 
                     <p>
                         <b>filet de boeuf au poivre vert</b>
-                        <span class="green">oignons confits, mesclun d'epinards, pommes mousseline</span>
+                        <span class="green">oignons confits, mesclun d'épinards, pommes mousseline</span>
                     </p>
                     <p>
-                        <b>volaile à pâte noire de la gruyère sauce moutarde</b><br>
-                        <span class="green">purée de potimarron et son chutney de courge riz vénéré</span>
+                        <b>volaille à pâte noire de la gruyère sauce moutarde</b><br>
+                        <span class="green">purée de potimarron et son chutney de courge, riz vénéré</span>
                     </p>
                     <p>
                         <b>trilogie de tomate du marghé et bouquet aromatique</b>
-                        <span class="green">éeches poélées, perie de citron caviar et pesto de pistache maison</span>
+                        <span class="green">péches poêlées, perle de citron caviar et pesto de pistache maison</span>
                     </p>
                     <p>
                         <b>Filets de perche suisse meunière 210 GR</b><br>
                         <span class="green">
-                            Courgettes et sa fleur du marché cuendet.<br>
-                            Pommes Nature, beurre blanc au dézaley
+                            légumes du marché, pommes nature, beurre blanc au dézaley
                         </span>
                     </p>
                     <p>
@@ -182,7 +181,7 @@
                     alt="deserts-txt" />
                 <p>
                     <b>sélection de glace de l'artisan glacier</b><br/>
-                    <span class="green">vanille, bourbon, mangue, verveine, framboise, mandarine citron bergamote, noisette</span>
+                    <span class="green">vanille, bourbon, mangue, verveine, framboise, mandarine, citron, bergamote, noisette</span>
                 </p>
                 <p>
                     <b>profiteroles chocolat vanille</b><br>

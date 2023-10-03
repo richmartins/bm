@@ -85,20 +85,13 @@
                     <p>
                         <b>Belle salade mêlée de saison</b><br>
                         <span class="green">
-                            bettraves chioggia, endives céleri boule
+                            céleri boule, chou rouge, pomme
                         </span>
-                    </p>
-                    <p>
-                        <b>escargots du mont d'or en coquilles</b><br>
-                        <span class="green">
-                            beurre aux herbes
-                        </span>
-                        <span class="red"> 6 pièces</span>
                     </p>
                     <p>
                         <b>os à moelle au sel noir black lava</b><br>
                         <span class="green">
-                            brioche grillée, crumble à l'ail des ours
+                            brioche grillée, crumble à la sauge ananas
                         </span>
                     </p>
                     <p>
@@ -106,16 +99,27 @@
                         <span class="green">frites maison, pain grillé</span>
                     </p>
                     <p>
-                        <b>gaspacho de poivrons du marché cuendet</b><br>
-                        <span class="green">huile de love at olio, bouquet aromatique</span>
+                        <b>soupe à la c0urge du marché cuendet</b>
                     </p>
                     <p>
-                        <b>foie de veau sauté aux framboises</b><br>
-                        <span class="green">saladine du marché cuendet, fruits à coque torréfiées</span>
+                        <b>
+                            pâté en croute de chez stuby
+                        </b><br>
+                        <span class="green">
+                            chutney maison, salade de mesclun
+                        </span>
                     </p>
                     <p>
-                        <b>filets de perche suisse meunière <span class="red">entrée</span></b><br>
-                        <span class="green">petite salade verte, beurre blanc au dézaley</span>
+                        <b>foie gras maison 80gr et son chutney</b><br>
+                        <span class="green">salade de mesclun, belle brioche grillée</span>
+                    </p>
+                    <p>
+                        <b>foie gras poêlé sauce aux fruits rouge</b><br>
+                        <span class="green">pommes flambées au cognac</span>
+                    </p>
+                    <p>
+                        <b>salade de foie sauté</b><br>
+                        <span class="green">vinaigrette aux fruits rouges, pickles d'oignons rouge</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -129,42 +133,38 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
+                    <p>
+                       <b> assiette garniture chasse</b><br>
+                       <span class="green">spaetzli, chou rouge, marrons glacés, choux de bruxelles poires à botzi au vin rouge, airelles</span>
+                    </p>
+                    <p>
+                        <b>selle de chevreuil minimum 2p</b><br>
+                        <span class="green">garniture chasse</span>
+                    </p>
+                    <p>
+                        <p>
+                            <b>civet de chevreuil</b><br>
+                            <span class="green">garniture chasse</span>
+                        </p>
+                    </p>
+                    <p>
+                        <b>saucisse à rôtir de sanglier aux morilles</b><br>
+                        <span class="green">garniture chasse</span>
+                    </p>
+                    <p>
+                        <b>médaillon de cerf sauce grand veneur 250gr</b><br>
+                        <span class="green">garniture chasse</span>
 
-                    <p>
-                        <b>filet de boeuf au poivre vert</b>
-                        <span class="green">oignons confits, mesclun d'épinards, pommes mousseline</span>
                     </p>
                     <p>
-                        <b>volaille à pâte noire de la gruyère sauce moutarde</b><br>
-                        <span class="green">purée de potimarron et son chutney de courge, riz vénéré</span>
+                        <b>salade de malakoffs maison</b><br>
+                        <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix, caramélisées, vinaigrette à la vanille</span>
                     </p>
                     <p>
-                        <b>trilogie de tomate du marghé et bouquet aromatique</b>
-                        <span class="green">péches poêlées, perle de citron caviar et pesto de pistache maison</span>
-                    </p>
-                    <p>
-                        <b>Filets de perche suisse meunière 210 GR</b><br>
-                        <span class="green">
-                            légumes du marché, pommes nature, beurre blanc au dézaley
-                        </span>
-                    </p>
-                    <p>
-                        <b>entrecôte parisienne de boeuf - <span class="green">Plat signature</span></b><br>
-                        <span class="green">beurre montelly, frites maison, légumes de saison</span><br>
-                        <span class="red">de 10 à 22H non-stop</span>
-                    </p>
-                    <p>
-                        <b>Cordon bleu maison</b> <br>
-                        <span class="green">pommes grenailles, légumes de saison du marché cuendet</span>
-                    </p>
-                    <p>
-                        <b>Salade de malakoffs maison <span class="red">entrée / plat</span></b><br>
-                        <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix
-                            caramélisées, vinaigrette à la vanille
-                        </span>
+                        <b>entrecôte parisienne de bœuf - <span class="red">plat signature</span><br></b>
+                        <span class="green">beurre montelly, frites maison, légumes de saison</span>
                     </p>
                 </span>
-
                 <span class="c-col-carte-img-container">
                     <img class="c-col-catel"
                         src="{{ asset('/storage/img/fleche.png') }}"
@@ -180,20 +180,20 @@
                     src="{{ asset('/storage/img/desserts.png') }}"
                     alt="deserts-txt" />
                 <p>
-                    <b>sélection de glace de l'artisan glacier</b><br/>
-                    <span class="green">vanille, bourbon, mangue, verveine, framboise, mandarine, citron, bergamote, noisette</span>
+                    <b>sélection de glace de l'artisan glacier</b><br />
+                    <span class="green">
+                        chocolat, vanille, mandarine, yuzu, framboise
+                    </span>
                 </p>
                 <p>
                     <b>profiteroles chocolat vanille</b><br>
                 </p>
                 <p>
-                    <b>crème brûlée à la fleur d'oranger</b><br>
+                    <b>crème brulée lavande</b><br>
                 </p>
                 <p>
-                    <b>meringue et sa double crème, mélange de fruits rouges</b><br>
-                </p>
-                <p>
-                    <b>pana cotta à l'abricot du valais</b><br>
+                    <b>vermicelles de marrons</b><br>
+                    <span class="green">double crème, meringue suisse</span>
                 </p>
             </span>
             <span class="m-col col"

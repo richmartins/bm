@@ -129,7 +129,7 @@
                     </p>
                     <p>
                         <b>SELLE DE CHEVREUiL</b><span class="green"> Minimum 2P</span><br>
-                        <span class="gren">GARNiTURE CHASSE</span>
+                        <span class="green">GARNiTURE CHASSE</span>
                     </p>
                     <p>
                         <b>CiVET DE CHEVREUiL</b><br>

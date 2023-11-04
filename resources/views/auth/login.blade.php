@@ -19,6 +19,7 @@
                     class="bo-input"
                     id="username"
                     name="username"
+                    value="{{ old('username') }}"
                     type="text"
                     required
                 />

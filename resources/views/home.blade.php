@@ -83,43 +83,33 @@
                         <b>salade de jeunes pousses</b>
                     </p>
                     <p>
-                        <b>Belle salade mêlée de saison</b><br>
-                        <span class="green">
-                            céleri boule, chou rouge, pomme
-                        </span>
+                        <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
+                        <span class="green">BETTERAVE, CAROTTE, POMME</span>
                     </p>
                     <p>
-                        <b>os à moelle au sel noir black lava</b><br>
-                        <span class="green">
-                            brioche grillée, crumble à la sauge ananas
-                        </span>
+                        <b>SOUPE À LA C0URGE DU MARCHÉ CUENDET</b><br>
                     </p>
                     <p>
-                        <b>Tartare de boeuf coupé au couteau <span class="red">entrée / plat</span></b><br>
-                        <span class="green">frites maison, pain grillé</span>
+                        <b>SOUPE À L'OiGNON GRATiNÉE</b><br>
                     </p>
                     <p>
-                        <b>soupe à la c0urge du marché cuendet</b>
+                        <b>FOiE GRAS MAiSON 80GR ET SON CHUTNEY</b><br>
+                        <span class="green">SALADE DE MESCLUN, BELLE BRiOCHE GRiLLÉE</span>
                     </p>
                     <p>
-                        <b>
-                            pâté en croute de chez stuby
-                        </b><br>
-                        <span class="green">
-                            chutney maison, salade de mesclun
-                        </span>
+                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
+                        <span class="green">BEURRE AUX HERBES</span><span class="red"> 6 PiÈCES</span>
                     </p>
                     <p>
-                        <b>foie gras maison 80gr et son chutney</b><br>
-                        <span class="green">salade de mesclun, belle brioche grillée</span>
+                        <b>TORTELLiNi MAiSON AU CHEVREUiL ET FOiE GRAS</b><br>
                     </p>
                     <p>
-                        <b>foie gras poêlé sauce aux fruits rouge</b><br>
-                        <span class="green">pommes flambées au cognac</span>
+                        <b>OS À MOELLE AU SEL NOiR BLACK LAVA</b><br>
+                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
                     </p>
                     <p>
-                        <b>salade de foie sauté</b><br>
-                        <span class="green">vinaigrette aux fruits rouges, pickles d'oignons rouge</span>
+                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU</b><span class="green"> ENTRÉE / PLAT</span><br>
+                        <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -134,36 +124,52 @@
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
                     <p>
-                       <b> assiette garniture chasse</b><br>
-                       <span class="green">spaetzli, chou rouge, marrons glacés, choux de bruxelles poires à botzi au vin rouge, airelles</span>
+                        <b>ASSiETTE GARNiTURE CHASSE</b><br>
+                        <span class="green">SPAETZLi, CHOU ROUGE, MARRONS GLACÉS, CHOUX DE BRUXELLES POiRES À BOTZi AU ViN ROUGE, AiRELLES</span>
                     </p>
                     <p>
-                        <b>selle de chevreuil minimum 2p</b><br>
-                        <span class="green">garniture chasse</span>
+                        <b>SELLE DE CHEVREUiL</b><span class="green"> Minimum 2P</span><br>
+                        <span class="gren">GARNiTURE CHASSE</span>
                     </p>
                     <p>
-                        <p>
-                            <b>civet de chevreuil</b><br>
-                            <span class="green">garniture chasse</span>
-                        </p>
+                        <b>CiVET DE CHEVREUiL</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
                     </p>
                     <p>
-                        <b>saucisse à rôtir de sanglier aux morilles</b><br>
-                        <span class="green">garniture chasse</span>
+                        <b>SAUCiSSE À RÔTiR DE SANGLiER AUX MORiLLES</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
                     </p>
                     <p>
-                        <b>médaillon de cerf sauce grand veneur 250gr</b><br>
-                        <span class="green">garniture chasse</span>
+                        <b>CŒUR D'ENTRECÔTE DE CERF FAÇ0N ROSSiNI</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                    </p>
+                    <p>
+                        <b>BURGER DE CHASSE AU SANGLiER</b><br>
+                        <span class="green">PAiN BRiOCHÉ, GRUYÈRE SALÉ, SAUCE GRAND VENEUR, AiRELLES</span>
+                    </p>
 
-                    </p>
                     <p>
-                        <b>salade de malakoffs maison</b><br>
-                        <span class="green">salade de jeunes pousses, déclinaison de radis, mélange de noix, caramélisées, vinaigrette à la vanille</span>
+                        <b>
+                            SALADE DE MALAKOFFS MAiSON
+                        </b>
+                        <br>
+                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
+                        <b>
+                            <span class="red">DE 10 À 22H NON-STOP</span>
+                        </b>
                     </p>
+
                     <p>
-                        <b>entrecôte parisienne de bœuf - <span class="red">plat signature</span><br></b>
-                        <span class="green">beurre montelly, frites maison, légumes de saison</span>
+
+                        <b>
+                            ENTRECÔTE PARiSiENNE DE BŒUF
+                            <span class="green"> - PLAT SiGNATURE</span>
+                        </b>
+                        <br>
+                        <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
+                        <span class="red">DE 10 À 22H NON-STOP</span>
                     </p>
+
                 </span>
                 <span class="c-col-carte-img-container">
                     <img class="c-col-catel"
@@ -179,22 +185,19 @@
                 <img class="m-col-txt-img"
                     src="{{ asset('/storage/img/desserts.png') }}"
                     alt="deserts-txt" />
-                <p>
-                    <b>sélection de glace de l'artisan glacier</b><br />
-                    <span class="green">
-                        chocolat, vanille, mandarine, yuzu, framboise
-                    </span>
-                </p>
-                <p>
-                    <b>profiteroles chocolat vanille</b><br>
-                </p>
-                <p>
-                    <b>crème brulée lavande</b><br>
-                </p>
-                <p>
-                    <b>vermicelles de marrons</b><br>
-                    <span class="green">double crème, meringue suisse</span>
-                </p>
+                    <p>
+                        <b>SÉLECTiON DE GLACE DE L'ARTiSAN GLACiER</b><br>
+                        <span class="green">CHOCOLAT, VANiLLE, POiRE, MiEL, BERGAMOTE</span>
+                    </p>
+                    <p>
+                        <b>LA PROFiTEROLE CHOCOLAT VANiLLE</b><br>
+                    </p>
+                    <p>
+                        <b>CRÈME BRÛLÉE FÈVE TONKA</b><br>
+                    </p>
+                    <p>
+                        <b>MOUSSE AU CHOCOLAT</b><br>
+                    </p>
             </span>
             <span class="m-col col"
                 id="link-menus">

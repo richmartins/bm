@@ -15,13 +15,13 @@
             class="bo-form-group"
         >
                 <label
-                    for="new_menu_boissons"
+                    for="new_menu_semaine"
                     class="bo-label"
                 >
                     Menu semaine
                 </label>
                 <input
-                    id="new_menu_boissons"
+                    id="new_menu_semaine"
                     class="bo-input"
                     name="new_menu_semaine"
                     type="file"

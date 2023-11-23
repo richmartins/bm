@@ -88,28 +88,17 @@
                     </p>
                     <p>
                         <b>SOUPE À LA C0URGE DU MARCHÉ CUENDET</b><br>
+                        <span class="red">Supplément truffe noir</span>
                     </p>
                     <p>
-                        <b>SOUPE À L'OiGNON GRATiNÉE</b><br>
                     </p>
                     <p>
                         <b>FOiE GRAS MAiSON 80GR ET SON CHUTNEY</b><br>
-                        <span class="green">SALADE DE MESCLUN, BELLE BRiOCHE GRiLLÉE</span>
+                        <span class="green">Belle brioche grillée</span>
                     </p>
                     <p>
                         <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
-                        <span class="green">BEURRE AUX HERBES</span><span class="red"> 6 PiÈCES</span>
-                    </p>
-                    <p>
-                        <b>TORTELLiNi MAiSON AU CHEVREUiL ET FOiE GRAS</b><br>
-                    </p>
-                    <p>
-                        <b>OS À MOELLE AU SEL NOiR BLACK LAVA</b><br>
-                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
-                    </p>
-                    <p>
-                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU</b><span class="green"> ENTRÉE / PLAT</span><br>
-                        <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
+                        <span class="green">BEURRE AUX HERBES</span><span class="red"> <b>6 PiÈCES</b></span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -123,37 +112,45 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
+                    <h1>Huîtres 1P/3P</h1>
                     <p>
-                        <b>ASSiETTE GARNiTURE CHASSE</b><br>
-                        <span class="green">SPAETZLi, CHOU ROUGE, MARRONS GLACÉS, CHOUX DE BRUXELLES POiRES À BOTZi AU ViN ROUGE, AiRELLES</span>
-                    </p>
-                    <p>
-                        <b>SELLE DE CHEVREUiL</b><span class="green"> Minimum 2P</span><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                    </p>
-                    <p>
-                        <b>CiVET DE CHEVREUiL</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                    </p>
-                    <p>
-                        <b>SAUCiSSE À RÔTiR DE SANGLiER AUX MORiLLES</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                    </p>
-                    <p>
-                        <b>CŒUR D'ENTRECÔTE DE CERF FAÇ0N ROSSiNI</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                    </p>
-                    <p>
-                        <b>BURGER DE CHASSE AU SANGLiER</b><br>
-                        <span class="green">PAiN BRiOCHÉ, GRUYÈRE SALÉ, SAUCE GRAND VENEUR, AiRELLES</span>
+                        <b>La fine de claire N°3</b><br>
+                        <span class="green">Légère, avec un goût salé et iodé peu de prononce</span>
                     </p>
 
                     <p>
+                        <b>La gillardeau spéciale N°3</b><br>
+                        <span class="green">Voluptueuse et ferme, généreuse et légèrement iodée</span>
+                    </p>
+                    <p>
+                        <b>LA KRYSTALE N°2</b><br>
+                        <span class="green">Une coquille puissante, des ACCENTS délicatement sucrés</span>
+                    </p>
+                    <h1>Plats</h1>
+                    <p>
+                        <b>Souris d'agneau braisée jus corsé au porto</b><br>
+                        <span class="green">Mousseline de pomme de terre, légumes de saison</span>
+                    </p>
+                    <p>
+                        <b>gyoza à la courge et gingembre</b><br>
+                        <span class="green">Duo de quinoa, légumes du marché</span>
+                    </p>
+
+                    <p>
+                        <b>filet mignon de veau sauce morilles</b><br>
+                        <span class="green">trilogie de panais, pommes grenailles</span>
+                    </p>
+                    <p>
+                        <b>Risotto aux écrevisses et truffe noir</b>
+                    </p>
+
+                    {{-- <p>
                         <b>
                             SALADE DE MALAKOFFS MAiSON
                         </b>
                         <br>
-                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
+                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX,
+                            CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
                         <b>
                             <span class="red">DE 10 À 22H NON-STOP</span>
                         </b>
@@ -168,7 +165,7 @@
                         <br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
                         <span class="red">DE 10 À 22H NON-STOP</span>
-                    </p>
+                    </p> --}}
 
                 </span>
                 <span class="c-col-carte-img-container">
@@ -185,19 +182,22 @@
                 <img class="m-col-txt-img"
                     src="{{ asset('/storage/img/desserts.png') }}"
                     alt="deserts-txt" />
-                    <p>
-                        <b>SÉLECTiON DE GLACE DE L'ARTiSAN GLACiER</b><br>
-                        <span class="green">CHOCOLAT, VANiLLE, POiRE, MiEL, BERGAMOTE</span>
-                    </p>
-                    <p>
-                        <b>LA PROFiTEROLE CHOCOLAT VANiLLE</b><br>
-                    </p>
-                    <p>
-                        <b>CRÈME BRÛLÉE FÈVE TONKA</b><br>
-                    </p>
-                    <p>
-                        <b>MOUSSE AU CHOCOLAT</b><br>
-                    </p>
+                <p>
+                    <b>SÉLECTiON DE GLACE DE L'ARTiSAN GLACiER</b><br>
+                    <span class="green">CHOCOLAT, VANiLLE, POiRE, Mandarine</span>
+                </p>
+                <p>
+                    <b>LA PROFiTEROLE CHOCOLAT VANiLLE</b><br>
+                </p>
+                <p>
+                    <b>Riz au lait à la noix de coco</b><br>
+                </p>
+                <p>
+                    <b>Poire pochée au chocolat et sa boule de glace poire</b><br>
+                </p>
+                <p>
+                    <b>créme brulé à la vanille de madagascar</b>
+                </p>
             </span>
             <span class="m-col col"
                 id="link-menus">

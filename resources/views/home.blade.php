@@ -97,7 +97,7 @@
                     </p>
                     <p>
                         <b>
-                            TARTARE DE BŒUF C0UPÉ AU C0UTEAU<span class="red">ENTRÉE / PLAT</span></b><br>
+                            TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
                     </p>
                     <p>

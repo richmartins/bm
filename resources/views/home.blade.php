@@ -84,21 +84,28 @@
                     </p>
                     <p>
                         <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">BETTERAVE, CAROTTE, POMME</span>
+                        <span class="green">BETTERAVE, Celeri, POMME</span>
+                    </p>
+
+                    <p>
+                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
+                        <span class="green">BEURRE AUX HERBES</span><span class="red"> <b>6 PiÈCES</b></span>
                     </p>
                     <p>
-                        <b>SOUPE À LA C0URGE DU MARCHÉ CUENDET</b><br>
-                        <span class="red">Supplément truffe noir</span>
+                        <b>OS À MOELLE AU SEL DE CAMARGUE</b><br>
+                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
                     </p>
                     <p>
+                        <b>SOUPE À LA C0URGE DU MARCHÉ CUENDET <span class="red">ENTRÉE / PLAT</span></b><br>
+                        <span class="red">FRiTES MAiSON, PAiN GRiLLÉ</span>
+                    </p>
+                    <p>
+                        <b>SAiNT-JACQUES RÔTiES AU GRAND MARNiER</b><br>
+                        <span class="green">ÉMULSiON AU CHAMPAGNE, FiNE BRUNOiSE DE LÉGUMES D'HiVER</span>
                     </p>
                     <p>
                         <b>FOiE GRAS MAiSON 80GR ET SON CHUTNEY</b><br>
                         <span class="green">Belle brioche grillée</span>
-                    </p>
-                    <p>
-                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
-                        <span class="green">BEURRE AUX HERBES</span><span class="red"> <b>6 PiÈCES</b></span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -114,59 +121,41 @@
                         alt="plats-txt" />
                     <h1>Huîtres 1P/3P</h1>
                     <p>
-                        <b>La fine de claire N°3</b><br>
-                        <span class="green">Légère, avec un goût salé et iodé peu de prononce</span>
+                        <b>LA GiLLARDEAU SPÉCiALE N°3</b><br>
+                        <span class="green">VOLUPTUEUSE ET FERME, GÉNÉREUSE ET LÉGÈREMENT iODÉE</span>
                     </p>
+                    <span class="red"><h1 style="text-align: center; font-size: .9em; margin: .7em 0">Aussi disponible en 6 et 12 pièces</h1></span>
 
-                    <p>
-                        <b>La gillardeau spéciale N°3</b><br>
-                        <span class="green">Voluptueuse et ferme, généreuse et légèrement iodée</span>
-                    </p>
-                    <p>
-                        <b>LA KRYSTALE N°2</b><br>
-                        <span class="green">Une coquille puissante, des ACCENTS délicatement sucrés</span>
-                    </p>
                     <h1>Plats</h1>
                     <p>
-                        <b>Souris d'agneau braisée jus corsé au porto</b><br>
-                        <span class="green">Mousseline de pomme de terre, légumes de saison</span>
+                        <b>TRiLOGiE DE CAROTTES GLACÉES DU MARCHÉ CUENDET</b><br>
+                        <span class="green">LABNEH AU ZA'ATAR, PAiN LiBANAiS MAiSON</span>
                     </p>
                     <p>
-                        <b>gyoza à la courge et gingembre</b><br>
-                        <span class="green">Duo de quinoa, légumes du marché</span>
+                        <b>CÔTE PLATE DE BŒUF BRAiSÉe</b><br>
+                        <span class="green">MOUSSELiNE DE POMME DE TERRE, LÉGUMES DE SAiSON</span>
                     </p>
 
                     <p>
-                        <b>filet mignon de veau sauce morilles</b><br>
-                        <span class="green">trilogie de panais, pommes grenailles</span>
+                        <b>DOS DE CABiLLAUD RÔTi ÉMULSiON ViN BLANC</b><br>
+                        <span class="green">FONDU DE POiREAUX, POMMES DE TERRE FONDANTES</span>
                     </p>
                     <p>
-                        <b>Risotto aux écrevisses et truffe noir</b>
+                        <b>FiLET DE BŒUF FAÇ0N ROSSiNi</b><br>
+                        <span class="green">GRATiN DAUPHiNOiS</span>
                     </p>
-
-                    {{-- <p>
-                        <b>
-                            SALADE DE MALAKOFFS MAiSON
-                        </b>
-                        <br>
-                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX,
-                            CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
-                        <b>
-                            <span class="red">DE 10 À 22H NON-STOP</span>
-                        </b>
-                    </p>
-
                     <p>
-
-                        <b>
-                            ENTRECÔTE PARiSiENNE DE BŒUF
-                            <span class="green"> - PLAT SiGNATURE</span>
-                        </b>
-                        <br>
+                        <b>SALADE DE MALAKOFFS MAiSON</b><br>
+                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
+                    </p>
+                    <p>
+                        <b>ENTRECÔTE PARiSiENNE DE BŒUF - <span class="green">PLAT SiGNATURE</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
-                        <span class="red">DE 10 À 22H NON-STOP</span>
-                    </p> --}}
-
+                    </p>
+                    <p>
+                        <b>SAUCiSSE À RÔTiR DE LA BOUCHERiE CACHiN</b><br>
+                        <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
+                    </p>
                 </span>
                 <span class="c-col-carte-img-container">
                     <img class="c-col-catel"
@@ -184,19 +173,16 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTiON DE GLACE DE L'ARTiSAN GLACiER</b><br>
-                    <span class="green">CHOCOLAT, VANiLLE, POiRE, Mandarine</span>
+                    <span class="green">VANiLLE BOURBON, EARL GREY, CHOCOLATMANGUE, CiTRON, MANDARINE</span>
+                </p>
+                <p>
+                    <b>CRÉME BRULÉE AU CAFÉ</b><br>
                 </p>
                 <p>
                     <b>LA PROFiTEROLE CHOCOLAT VANiLLE</b><br>
                 </p>
                 <p>
-                    <b>Riz au lait à la noix de coco</b><br>
-                </p>
-                <p>
-                    <b>Poire pochée au chocolat et sa boule de glace poire</b><br>
-                </p>
-                <p>
-                    <b>créme brulé à la vanille de madagascar</b>
+                    <b>PANNA C0TTA AU PAMPLEMOUSSE</b>
                 </p>
             </span>
             <span class="m-col col"

@@ -134,7 +134,7 @@
                     </p>
                     <p>
                         <b>CÔTE PLATE DE BŒUF BRAiSÉe</b><br>
-                        <span class="green">MOUSSELiNE DE POMME DE TERRE, LÉGUMES DE SAiSON</span>
+                        <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
                     </p>
 
                     <p>

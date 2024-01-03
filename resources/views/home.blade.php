@@ -96,8 +96,9 @@
                         <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
                     </p>
                     <p>
-                        <b>SOUPE À LA C0URGE DU MARCHÉ CUENDET <span class="red">ENTRÉE / PLAT</span></b><br>
-                        <span class="red">FRiTES MAiSON, PAiN GRiLLÉ</span>
+                        <b>
+                            TARTARE DE BŒUF C0UPÉ AU C0UTEAU<span class="red">ENTRÉE / PLAT</span></b><br>
+                        <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
                     </p>
                     <p>
                         <b>SAiNT-JACQUES RÔTiES AU GRAND MARNiER</b><br>

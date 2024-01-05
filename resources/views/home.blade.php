@@ -24,25 +24,20 @@
             </span>
             <span class="d-txt col">
                 <p>
-                    Le montelly, est un café-restaurant ouvert en 1929, au croisement des quartiers de Montoie et de
-                    Montelly.
+
+                    Découvrez une expérience culinaire dynamique, inspirée par les saveurs locales et les saisons. À midi, explorez notre sélection de plats variés qui évoluent chaque semaine, mêlant les classiques de la brasserie traditionnelle à des plats locaux.
                 </p>
                 <p>
-                    Son intérieur sobre et accueillant, en demi-lune, éclairé par de grandes baies vitrées, a conservé
-                    toute son authenticité. Les boiseries murales ainsi que le parquet accentuent le charme evident du
-                    café et contribuent à la belle ambiance des lieux.
+                    Le soir, laissez-vous surprendre par une carte renouvelée mensuellement, mettant en avant notre engagement à vous offrir le meilleur des produits locaux, soigneusement sélectionnés pour vous garantir une expérience gustative authentique.
                 </p>
                 <p>
-                    Suivant les moments de la journée, la brasserie passe d'une ambiance de bistrot de quartier, à celle
-                    d'un restaurant dans l'air du temps. Dès les beaux jours, la façade en pierres de taille ajoute son
-                    décor à notre grande terrasse fleurie et ensoleillée.
+                    Notre passion pour les vins transparaît dans notre sélection soignée de vins régionaux, de crus renommés et d'importations internationales. Nous nous efforçons d’y ajouter une sélection de vins hors carte pour sublimer nos plats.
                 </p>
                 <p>
-                    Cet établissement historique est labelisé « Café historique de Lausanne » depuis 2021.
+                    Explorez également notre bar où une variété de bières artisanales et de cocktails vous attend, incluant des créations temporaires pour rendre votre visite unique.
                 </p>
                 <p>
-                    Depuis près d'un siècle, les générations se succèdent au Montelly, pour le bonheur des amoureux du
-                    quartier.
+                    Notre équipe chaleureuse vous accueille pour une expérience authentique de brasserie de quartier, alliant le charme local à un service de qualité. Nous vous souhaitons la bienvenue et sommes impatients de vous faire découvrir notre univers culinaire.
                 </p>
             </span>
         </div>

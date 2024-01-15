@@ -24,20 +24,17 @@
             </span>
             <span class="d-txt col">
                 <p>
-
-                    Découvrez une expérience culinaire dynamique, inspirée par les saveurs locales et les saisons. À midi, explorez notre sélection de plats variés qui évoluent chaque semaine, mêlant les classiques de la brasserie traditionnelle à des plats locaux.
+                    La Brasserie de Montelly, est un café-restaurant ouvert en 1929, au croisement des quartiers de Montoie et de Montelly.
                 </p>
                 <p>
-                    Le soir, laissez-vous surprendre par une carte renouvelée mensuellement, mettant en avant notre engagement à vous offrir le meilleur des produits locaux, soigneusement sélectionnés pour vous garantir une expérience gustative authentique.
+                    Son intérieur sobre et accueillant, en demi-lune, éclairé par de grandes baies vitrées, a conservé toute son authenticité. Les boiseries murales ainsi que le parquet accentuent le charme évident du café et contribuent à la belle ambiance des lieux.
                 </p>
                 <p>
-                    Notre passion pour les vins transparaît dans notre sélection soignée de vins régionaux, de crus renommés et d'importations internationales. Nous nous efforçons d’y ajouter une sélection de vins hors carte pour sublimer nos plats.
+                    Suivant les moments de la journée, l'établissement passe d'une ambiance de brasserie de quartier, à celle d'un restaurant dans l'air du temps. Dès les beaux jours, la façade en pierres de taille ajoute son décor à notre grande terrasse fleurie et ensoleillée.
                 </p>
                 <p>
-                    Explorez également notre bar où une variété de bières artisanales et de cocktails vous attend, incluant des créations temporaires pour rendre votre visite unique.
-                </p>
-                <p>
-                    Notre équipe chaleureuse vous accueille pour une expérience authentique de brasserie de quartier, alliant le charme local à un service de qualité. Nous vous souhaitons la bienvenue et sommes impatients de vous faire découvrir notre univers culinaire.
+                    L'établissement est labelisé « Café historique de Lausanne » depuis 2021.
+                    Depuis près d'un siècle, les générations se succèdent à la Brasserie de Montelly, pour le plus grand bonheur des amoureux du quartier.
                 </p>
             </span>
         </div>
@@ -49,24 +46,19 @@
                     src="{{ asset('/storage/img/la_carte.png') }}"
                     alt="plats-txt" />
                 <p>
-                    À midi, nous proposons des plats différents chaque semaine. Des classiques de brasserie
-                    traditionnelle et des plats régionaux, toujours de saison.
+                    Découvrez une expérience culinaire dynamique, inspirée par les saveurs locales et les saisons. À midi, explorez notre sélection de plats variés qui évoluent chaque semaine, mêlant les classiques de la brasserie traditionnelle à des plats locaux.
                 </p>
                 <p>
-                    Le soir, notre carte varie et s'agrandit dans le même esprit.<br>Notre défi : mettre en valeur des
-                    produits artisanaux et locaux, sélectionnés avec soin.
+                    Le soir, laissez-vous surprendre par une carte renouvelée mensuellement, mettant en avant notre engagement à vous offrir le meilleur des produits locaux, soigneusement sélectionnés pour vous garantir une expérience gustative authentique.
                 </p>
                 <p>
-                    Pour accompagner cette cuisine gourmande, vous pouvez déguster de merveilleux vins de la région
-                    ainsi que de grands crus.
+                    Notre passion pour les vins transparaît dans notre sélection soignée de vins régionaux, de crus renommés et d'importations internationales. Nous nous efforçons d'y ajouter une sélection de vins hors carte pour sublimer nos plats.
                 </p>
                 <p>
-                    Quant au bar, on y sert un assortiment de bières artisanales et de renommées ainsi que des cocktails
-                    du moment.
+                    Explorez également notre bar où une variété de bières artisanales et de cocktails vous attend, incluant des créations temporaires pour rendre votre visite unique.
                 </p>
                 <p>
-                    L'équipe dynamique et chaleureuse vous propose l'expérience séduisante d'une très bonne table de
-                    bistrot, avec le soin et la qualité au quotidien.<br>Bienvenue à vous !
+                    Notre équipe chaleureuse vous accueille pour une expérience authentique de brasserie de quartier, alliant le charme local à un service de qualité. Nous vous souhaitons la bienvenue et sommes impatients de vous faire découvrir notre univers culinaire.
                 </p>
             </span>
             <span class="c-col col c-col-carte menu-font">

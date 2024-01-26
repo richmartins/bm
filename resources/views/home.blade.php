@@ -71,7 +71,7 @@
                     </p>
                     <p>
                         <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">BETTERAVE, Celeri, POMME</span>
+                        <span class="green">BETTERAVE, CÉLERiE, CAROTTE</span>
                     </p>
 
                     <p>
@@ -107,14 +107,6 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
-                    <h1>Huîtres 1P/3P</h1>
-                    <p>
-                        <b>LA GiLLARDEAU SPÉCiALE N°3</b><br>
-                        <span class="green">VOLUPTUEUSE ET FERME, GÉNÉREUSE ET LÉGÈREMENT iODÉE</span>
-                    </p>
-                    <span class="red"><h1 style="text-align: center; font-size: .9em; margin: .7em 0">Aussi disponible en 6 et 12 pièces</h1></span>
-
-                    <h1>Plats</h1>
                     <p>
                         <b>TRiLOGiE DE CAROTTES GLACÉES DU MARCHÉ CUENDET</b><br>
                         <span class="green">LABNEH AU ZA'ATAR, PAiN LiBANAiS MAiSON</span>

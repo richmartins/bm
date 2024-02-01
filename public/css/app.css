@@ -69,6 +69,14 @@ a:hover {
     color: #005d2c;
 }
 
+
+.price {
+    display: block;
+    color: #005d2c;
+    text-align: right;
+    font-weight: bold;
+}
+
 .red {
     color: #cc5137;
 }

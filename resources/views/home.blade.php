@@ -68,32 +68,41 @@
                         alt="plats-txt" />
                     <p>
                         <b>salade de jeunes pousses</b>
+                        <span class="price">6.-</span>
                     </p>
                     <p>
                         <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
                         <span class="green">BETTERAVE, CÉLERiE, CAROTTE</span>
+                        <span class="price">9.-</span>
                     </p>
-
+                    <p>
+                        <b>GARLIC BREAD MAISON</b><br>
+                        <span class="price">8.-</span>
+                    </p>
                     <p>
                         <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
                         <span class="green">BEURRE AUX HERBES</span><span class="red"> <b>6 PiÈCES</b></span>
+                        <span class="price">14.-</span>
                     </p>
                     <p>
                         <b>OS À MOELLE AU SEL DE CAMARGUE</b><br>
                         <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
+                        <span class="price">15.-</span>
                     </p>
                     <p>
-                        <b>
-                            TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
+                        <b>POiREAUX ViNAiGRETTE</b><br>
+                        <span class="green">CÂPRES FRiTS ,ViNAiGRETTE AU YAOURT</span>
+                        <span class="price">15.-</span>
+                    </p>
+                    <p>
+                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
-                    </p>
-                    <p>
-                        <b>SAiNT-JACQUES RÔTiES AU GRAND MARNiER</b><br>
-                        <span class="green">ÉMULSiON AU CHAMPAGNE, FiNE BRUNOiSE DE LÉGUMES D'HiVER</span>
+                        <span class="price">18.-/35.-</span>
                     </p>
                     <p>
                         <b>FOiE GRAS MAiSON 80GR ET SON CHUTNEY</b><br>
                         <span class="green">Belle brioche grillée</span>
+                        <span class="price">22.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -108,33 +117,40 @@
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>TRiLOGiE DE CAROTTES GLACÉES DU MARCHÉ CUENDET</b><br>
-                        <span class="green">LABNEH AU ZA'ATAR, PAiN LiBANAiS MAiSON</span>
-                    </p>
-                    <p>
-                        <b>CÔTE PLATE DE BŒUF BRAiSÉe</b><br>
-                        <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
+                        <b>JOUES DE BŒUF C0NFiTES À L'ORANGE</b><br>
+                        <span class="green">GRATiN DAUPHiNOiS, LÉGUMES DE SAiSON</span>
+                        <span class="price">38.-</span>
                     </p>
 
                     <p>
-                        <b>DOS DE CABiLLAUD RÔTi ÉMULSiON ViN BLANC</b><br>
-                        <span class="green">FONDU DE POiREAUX, POMMES DE TERRE FONDANTES</span>
+                        <b>QUEUE DE LOTTE AUX CiTRONS C0NFiTS</b><br>
+                        <span class="green">MOUSSELiNE DE CÉLERi, CiMA Di RAPA</span>
+                        <span class="price">39.-</span>
                     </p>
                     <p>
-                        <b>FiLET DE BŒUF FAÇ0N ROSSiNi</b><br>
-                        <span class="green">GRATiN DAUPHiNOiS</span>
+                        <b>BALLOTiNE DE VOLAiLLE FARCiE AUX MORiLLES</b><br>
+                        <span class="green">FRiCASSÉE DE CHAMPiGNONS, POMMES GRENAiLLES</span>
+                        <span class="price">39.-</span>
+                    </p>
+                    <p>
+                        <b>CÔTE DE BŒUF RASSiE SUR OS 30 JOURS <span class="green">MIN. 2P</span></b><br>
+                        <span class="green">MOUSSELiNE MAiSON, LÉGUMES DE SAiSON SAUCE AU POiVRE ET BEURRE MONTELLY</span>
+                        <span class="price">65.-</span>
                     </p>
                     <p>
                         <b>SALADE DE MALAKOFFS MAiSON</b><br>
                         <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
+                        <span class="price">26.-</span>
                     </p>
                     <p>
                         <b>ENTRECÔTE PARiSiENNE DE BŒUF - <span class="green">PLAT SiGNATURE</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
+                        <span class="price">28.-</span>
                     </p>
                     <p>
                         <b>SAUCiSSE À RÔTiR DE LA BOUCHERiE CACHiN</b><br>
                         <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
+                        <span class="price">32.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -152,17 +168,26 @@
                     src="{{ asset('/storage/img/desserts.png') }}"
                     alt="deserts-txt" />
                 <p>
-                    <b>SÉLECTiON DE GLACE DE L'ARTiSAN GLACiER</b><br>
-                    <span class="green">VANiLLE BOURBON, EARL GREY, CHOCOLATMANGUE, CiTRON, MANDARINE</span>
+                    <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
+                    <span class="green">VANILLE BOURBON, EARL GREY, CHOCOLAT FRUITS ROUGE, MANGUE, CITRON, MANDARINE</span>
+                    <span class="price">4.-</span>
                 </p>
                 <p>
-                    <b>CRÉME BRULÉE AU CAFÉ</b><br>
+                    <b>CRÉME BRULÉE ORANGE ET SAFRAN</b><br>
+                    <span class="price">11.-</span>
                 </p>
                 <p>
-                    <b>LA PROFiTEROLE CHOCOLAT VANiLLE</b><br>
+                    <b>TOUT EN CHOCOLAT</b><br>
+                    <span class="green">CRÉMEUX CHOCOLAT, CARAMEL BEURRE SAIE NOISETTES CARAMÉLISÉES</span>
+                    <span class="price">12.-</span>
                 </p>
                 <p>
-                    <b>PANNA C0TTA AU PAMPLEMOUSSE</b>
+                    <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
+                    <span class="price">14.-</span>
+                </p>
+                <p>
+                    <b>TARTELETTE CITRON MAISON</b><br>
+                    <span class="price">12.-</span>
                 </p>
             </span>
             <span class="m-col col"

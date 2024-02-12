@@ -43,3 +43,8 @@ Route::group([
         ->name('update_menu');
 });
 
+// Route::get();
+// Route::post();
+// Route::put();
+// Route::delete();
+

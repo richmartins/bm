@@ -76,6 +76,10 @@
                         <span class="price">9.-</span>
                     </p>
                     <p>
+                        <b>MALAKOFF MAiSON</b><br><span class="red"> 1 Pièce / 3 pièces</span>
+                        <span class="price">3.- / 9.-</span>
+                    </p>
+                    <p>
                         <b>GARLIC BREAD MAISON</b><br>
                         <span class="price">8.-</span>
                     </p>
@@ -117,8 +121,8 @@
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>JOUES DE BŒUF C0NFiTES À L'ORANGE</b><br>
-                        <span class="green">GRATiN DAUPHiNOiS, LÉGUMES DE SAiSON</span>
+                        <b>BŒUF BOURGUiGNON</b><br>
+                        <span class="green">LÉGUMES TOURNÉS, GARNiTURE BOURGUiGNONNE</span>
                         <span class="price">38.-</span>
                     </p>
 
@@ -127,16 +131,24 @@
                         <span class="green">MOUSSELiNE DE CÉLERi, CiMA Di RAPA</span>
                         <span class="price">39.-</span>
                     </p>
+
+
                     <p>
-                        <b>BALLOTiNE DE VOLAiLLE FARCiE AUX MORiLLES</b><br>
-                        <span class="green">FRiCASSÉE DE CHAMPiGNONS, POMMES GRENAiLLES</span>
-                        <span class="price">39.-</span>
+                        <b>ARAiGNÉE DE VEAU JUS C0RSÉ</b><br>
+                        <span class="green">GRATiN DAUPHiNOiS, DÉCLiNAiSON DE CAROTTES</span>
+                        <span class="price">42.-</span>
                     </p>
+
                     <p>
-                        <b>CÔTE DE BŒUF RASSiE SUR OS 30 JOURS <span class="green">MIN. 2P</span></b><br>
-                        <span class="green">MOUSSELiNE MAiSON, LÉGUMES DE SAiSON SAUCE AU POiVRE ET BEURRE MONTELLY</span>
-                        <span class="price">65.-</span>
+                        <b>CÔTE DE BŒUF RASSiE SUR OS 30 JOURS <span class="red">MIN. 2P</span></b><br>
+                        <span class="green">
+                            <b>BOUCHERiE STUBY</b>
+                            <br>MOUSSELiNE MAiSON, LÉGUMES DE SAiSON
+                            <br>SAUCE AU POiVRE ET BEURRE MONTELLY
+                        </span>
+                        <span class="price">65.-PP</span>
                     </p>
+
                     <p>
                         <b>SALADE DE MALAKOFFS MAiSON</b><br>
                         <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
@@ -173,12 +185,12 @@
                     <span class="price">4.-</span>
                 </p>
                 <p>
-                    <b>CRÉME BRULÉE ORANGE ET SAFRAN</b><br>
+                    <b>CRÈME BRÛLÉE CARDAMOME</b><br>
                     <span class="price">11.-</span>
                 </p>
                 <p>
-                    <b>TOUT EN CHOCOLAT</b><br>
-                    <span class="green">CRÉMEUX CHOCOLAT, CARAMEL BEURRE SAIE NOISETTES CARAMÉLISÉES</span>
+                    <b>BROWNiE AU CHOCOLAT ET NOiX DE PÉCAN</b><br>
+                    <span class="green">CARAMEL BEURRE SALÉ, BOULE À CHOiX</span>
                     <span class="price">12.-</span>
                 </p>
                 <p>

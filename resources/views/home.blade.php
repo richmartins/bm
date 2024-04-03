@@ -67,46 +67,45 @@
                         src="{{ asset('/storage/img/entree.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>salade de jeunes pousses</b>
+                        <b>SALADE DE JEUNES POUSSES</b><br>
                         <span class="price">6.-</span>
                     </p>
                     <p>
                         <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">BETTERAVE, CÉLERiE, CAROTTE</span>
+                        <span class="green">BETTERAVE, CÉLERi, CAROTTE</span>
                         <span class="price">9.-</span>
                     </p>
                     <p>
-                        <b>MALAKOFF MAiSON</b><br><span class="red"> 1 Pièce / 3 pièces</span>
+                        <b>MALAKOFF MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
                         <span class="price">3.- / 9.-</span>
                     </p>
                     <p>
-                        <b>GARLIC BREAD MAISON</b><br>
+                        <b>GARLIC BREAD MAISON</b>
                         <span class="price">8.-</span>
                     </p>
                     <p>
                         <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
-                        <span class="green">BEURRE AUX HERBES</span><span class="red"> <b>6 PiÈCES</b></span>
+                        <span class="green">BEURRE AUX HERBES <span class="red">6 PiÈCES</span></span>
                         <span class="price">14.-</span>
                     </p>
                     <p>
                         <b>OS À MOELLE AU SEL DE CAMARGUE</b><br>
-                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
                         <span class="price">15.-</span>
                     </p>
                     <p>
-                        <b>POiREAUX ViNAiGRETTE</b><br>
-                        <span class="green">CÂPRES FRiTS ,ViNAiGRETTE AU YAOURT</span>
-                        <span class="price">15.-</span>
+                        <b>SALADE DE DENT DE LiON</b> <span class="red">ENTRÉE / PLAT</span><br>
+                        <span class="green">LARDONS, CROÛTONS, ŒUFS MOLLETS ET CRUDiTÉS</span>
+                        <span class="price">16.- / 29.-</span>
                     </p>
                     <p>
-                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
+                        <b>ASPERGES RÔTiES ET PESTO À L'AiL DES OURS</b><br>
+                        <span class="green">BURRATA CRÉMEUSE NOiSETTES TORRÉFiÉES</span>
+                        <span class="price">18.-</span>
+                    </p>
+                    <p>
+                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU </b><span class="red">ENTRÉE / PLAT</span><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
-                        <span class="price">18.-/35.-</span>
-                    </p>
-                    <p>
-                        <b>FOiE GRAS MAiSON 80GR ET SON CHUTNEY</b><br>
-                        <span class="green">Belle brioche grillée</span>
-                        <span class="price">22.-</span>
+                        <span class="price">18.- / 35.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -121,33 +120,41 @@
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>BŒUF BOURGUiGNON</b><br>
-                        <span class="green">LÉGUMES TOURNÉS, GARNiTURE BOURGUiGNONNE</span>
+                        <b>NOTRE BELLE SALADE DE LA SEMAiNE</b><br>
+                        <span class="price">24.-</span>
+                    </p>
+                    <p>
+                        <b>SUGGESTiON DU JOUR</b><br>
+                        <span class="green">SERVi AVEC UNE PETiTE SALADE VERTE</span>
+                        <span class="price">25.-</span>
+                    </p>
+
+                    <p>
+                        <b>TRUiTE SAUMONÉE BEURRE BLANC ET HUiLE DE LiVÈCHE</b><br>
+                        <span class="price">32.-</span>
+                    </p>
+                    <p>
+                        <b>RiSOTTO AUX ASPERGES ET MORiLLES FARCiES</b><br>
+                        <span class="green">DUO D'ASPERGES SAUTÉES</span>
+                        <span class="price">36.-</span>
+                    </p>
+                    <p>
+                        <b>TRUiTE SAUMONÉE BEURRE BLANC ET HUiLE DE LiVÈCHE</b><br>
+                        <span class="green">TOMBÉES D'EPiNARDS, POMMES NATURE</span>
                         <span class="price">38.-</span>
                     </p>
 
                     <p>
-                        <b>QUEUE DE LOTTE AUX CiTRONS C0NFiTS</b><br>
-                        <span class="green">MOUSSELiNE DE CÉLERi, CiMA Di RAPA</span>
-                        <span class="price">39.-</span>
+                        <b>CARRÉ DE VEAU AUX MORiLLES</b><br>
+                        <span class="green">POMMES GRENAiLLES SAUTÉES À LA SAUGE, CAROTTES FANES RÔTiES</span>
+                        <span class="price">53.-</span>
                     </p>
-
-
                     <p>
-                        <b>ARAiGNÉE DE VEAU JUS C0RSÉ</b><br>
-                        <span class="green">GRATiN DAUPHiNOiS, DÉCLiNAiSON DE CAROTTES</span>
-                        <span class="price">42.-</span>
+                        <b>CÔTE DE BOEUF RASSiS SUR OS </b><span class="red"> 500GR</span><br>
+                        <span class="green">FRiTES MAiSON LÉGUMES DE SAiSON</span>
+                        <span class="price">54.-</span>
                     </p>
 
-                    <p>
-                        <b>CÔTE DE BŒUF RASSiE SUR OS 30 JOURS <span class="red">MIN. 2P</span></b><br>
-                        <span class="green">
-                            <b>BOUCHERiE STUBY</b>
-                            <br>MOUSSELiNE MAiSON, LÉGUMES DE SAiSON
-                            <br>SAUCE AU POiVRE ET BEURRE MONTELLY
-                        </span>
-                        <span class="price">65.-PP</span>
-                    </p>
 
                     <p>
                         <b>SALADE DE MALAKOFFS MAiSON</b><br>
@@ -156,13 +163,24 @@
                     </p>
                     <p>
                         <b>ENTRECÔTE PARiSiENNE DE BŒUF - <span class="green">PLAT SiGNATURE</span></b><br>
+                        <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
-                        <span class="price">28.-</span>
+                        <span class="price">28.- / +12.-</span>
                     </p>
                     <p>
                         <b>SAUCiSSE À RÔTiR DE LA BOUCHERiE CACHiN</b><br>
                         <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
                         <span class="price">32.-</span>
+                    </p>
+                    <p>
+                        <b>C0RDON BLEU</b><br>
+                        <span class="green">LÉGUMES DE SAiSON, POMMES GRENAiLLES SAUTÉES À LA SAUGE</span>
+                        <span class="price">34.-</span>
+                    </p>
+                    <p>
+                        <b>ONGLET DE BOEUF SAUCE AU POiVRE</b><br>
+                        <span class="green">FRiTES ALLUMETTES, LÉGUMES DE SAiSON</span>
+                        <span class="price">36.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">

@@ -199,25 +199,29 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">VANILLE BOURBON, EARL GREY, CHOCOLAT FRUITS ROUGE, MANGUE, CITRON, MANDARINE</span>
+                    <span class="green">VANILLE BOURBON, CHOCOLAT FRUITS ROUGES, MANGUE, CITRON,</span>
                     <span class="price">4.-</span>
                 </p>
                 <p>
-                    <b>CRÈME BRÛLÉE CARDAMOME</b><br>
+                    <b>COUPE DE GLACE CITRON ET LIMONCELLO BOUCHELLO</b><br>
+                    <span class="price">9.-</span>
+                </p>
+                <p>
+                    <b>CRÈME BRÛLéE VANILIE DE MADAGASGAR</b><br>
                     <span class="price">11.-</span>
                 </p>
                 <p>
-                    <b>BROWNiE AU CHOCOLAT ET NOiX DE PÉCAN</b><br>
-                    <span class="green">CARAMEL BEURRE SALÉ, BOULE À CHOiX</span>
+                    <b>TARTE TATIN MAISON</b><br>
+                    <span class="green">BOULE DE GLACE VANILLE BOURBON</span>
+                    <span class="price">12.-</span>
+                </p>
+                <p>
+                    <b>TARTELETTE CITRON MAISON</b><br>
                     <span class="price">12.-</span>
                 </p>
                 <p>
                     <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
                     <span class="price">14.-</span>
-                </p>
-                <p>
-                    <b>TARTELETTE CITRON MAISON</b><br>
-                    <span class="price">12.-</span>
                 </p>
             </span>
             <span class="m-col col"

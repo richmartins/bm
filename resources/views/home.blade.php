@@ -214,7 +214,7 @@
                     <span class="price">14.-</span>
                 </p>
                 <p>
-                    <b>FONDANT AU CHOCOLAT 72% CŒUR NOISETTE</b>
+                    <b>FONDANT AU CHOCOLAT 72% CŒUR NOISETTE</b><br>
                     <span class="green">TEMPS DE REALSATION IO MINUTES.</span>
                     <span class="price">14.-</span>
                 </p>

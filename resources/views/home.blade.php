@@ -90,20 +90,19 @@
                     </p>
                     <p>
                         <b>OS À MOELLE AU SEL DE CAMARGUE</b><br>
+                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
                         <span class="price">15.-</span>
                     </p>
                     <p>
-                        <b>SALADE DE DENT DE LiON</b> <span class="red">ENTRÉE / PLAT</span><br>
-                        <span class="green">LARDONS, CROÛTONS, ŒUFS MOLLETS ET CRUDiTÉS</span>
-                        <span class="price">16.- / 29.-</span>
+                        <b>OEUFS MIMOSA</b><br>
+                        <span class="price">9.-</span>
                     </p>
                     <p>
-                        <b>ASPERGES RÔTiES ET PESTO À L'AiL DES OURS</b><br>
-                        <span class="green">BURRATA CRÉMEUSE NOiSETTES TORRÉFiÉES</span>
+                        <b>DUO D'ASPERGES ET SA SAUCE HOLLANDAiSE MAiSON</b><br>
                         <span class="price">18.-</span>
                     </p>
                     <p>
-                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU </b><span class="red">ENTRÉE / PLAT</span><br>
+                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
                         <span class="price">18.- / 35.-</span>
                     </p>
@@ -119,6 +118,27 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
+
+                    <p>
+                        <b>DUO DE C0URGETTES DU MARCHÉ CUENDET</b><br>
+                        <span class="green">BOUQUET AROMATiQUE, ViERGE DE TOMATE CROUSTiLLANTS D'OLiVE NOiR</span>
+                        <span class="price">28.-</span>
+                    </p>
+                    <p>
+                        <b>DOS DE CABiLLAUD RÔTi ET SA ViERGE PRiNTANiÈRE</b><br>
+                        <span class="green">SAUTÉE DE PETiTS POiS, POMMES RiSSOLÉES</span>
+                        <span class="price">36.-</span>
+                    </p>
+                    <p>
+                        <b>CARRÉ D'AGNEAU EN CROÛTE D'HERBE</b><br>
+                        <span class="green">jus corsé à la framboise, asperges rôties, pommes grenailles</span>
+                        <span class="price">47.-</span>
+                    </p>
+                    <p>
+                        <b>CÔTE DE BOEUF RASSiS SUR OS </b><span class="red">500 GR</span><br>
+                        <span class="green">FRiTES MAiSON, LÉGUMES DE SAiSON</span>
+                        <span class="price">54.-</span>
+                    </p>
                     <p>
                         <b>NOTRE BELLE SALADE DE LA SEMAiNE</b><br>
                         <span class="price">24.-</span>
@@ -128,34 +148,6 @@
                         <span class="green">SERVi AVEC UNE PETiTE SALADE VERTE</span>
                         <span class="price">25.-</span>
                     </p>
-
-                    <p>
-                        <b>TRUiTE SAUMONÉE BEURRE BLANC ET HUiLE DE LiVÈCHE</b><br>
-                        <span class="price">32.-</span>
-                    </p>
-                    <p>
-                        <b>RiSOTTO AUX ASPERGES ET MORiLLES FARCiES</b><br>
-                        <span class="green">DUO D'ASPERGES SAUTÉES</span>
-                        <span class="price">36.-</span>
-                    </p>
-                    <p>
-                        <b>TRUiTE SAUMONÉE BEURRE BLANC ET HUiLE DE LiVÈCHE</b><br>
-                        <span class="green">TOMBÉES D'EPiNARDS, POMMES NATURE</span>
-                        <span class="price">38.-</span>
-                    </p>
-
-                    <p>
-                        <b>CARRÉ DE VEAU AUX MORiLLES</b><br>
-                        <span class="green">POMMES GRENAiLLES SAUTÉES À LA SAUGE, CAROTTES FANES RÔTiES</span>
-                        <span class="price">53.-</span>
-                    </p>
-                    <p>
-                        <b>CÔTE DE BOEUF RASSiS SUR OS </b><span class="red"> 500GR</span><br>
-                        <span class="green">FRiTES MAiSON LÉGUMES DE SAiSON</span>
-                        <span class="price">54.-</span>
-                    </p>
-
-
                     <p>
                         <b>SALADE DE MALAKOFFS MAiSON</b><br>
                         <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
@@ -168,19 +160,21 @@
                         <span class="price">28.- / +12.-</span>
                     </p>
                     <p>
-                        <b>SAUCiSSE À RÔTiR DE LA BOUCHERiE CACHiN</b><br>
-                        <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
-                        <span class="price">32.-</span>
+                        <b>DEMi C0QUELET DE LA BOUCHERiE STUBY</b><br>
+                        <span class="green">JUS DE CUiSSON RÉDUiT, HARiCOTS VERTS</span>
+                        <span class="price">24.-</span>
                     </p>
                     <p>
-                        <b>C0RDON BLEU</b><br>
-                        <span class="green">LÉGUMES DE SAiSON, POMMES GRENAiLLES SAUTÉES À LA SAUGE</span>
-                        <span class="price">34.-</span>
+                        <b>FOiE DE VEAU AU ViNAiGRE DE ViN ET ÉCHALOTES</b><br>
+                        <span class="green">MOUSELiNE DE POMMES DE TERRE</span>
+                        <span class="price">26.-</span>
                     </p>
                     <p>
-                        <b>ONGLET DE BOEUF SAUCE AU POiVRE</b><br>
-                        <span class="green">FRiTES ALLUMETTES, LÉGUMES DE SAiSON</span>
-                        <span class="price">36.-</span>
+                        <p>
+                            <b>C0RDON BLEU</b><br>
+                            <span class="green">LÉGUMES DE SAiSON, POMMES GRENAiLLES SAUTÉES À LA SAUGE</span>
+                            <span class="price">28.-</span>
+                        </p>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">

@@ -193,15 +193,11 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">VANILLE BOURBON, CHOCOLAT FRUITS ROUGES, MANGUE, CITRON,</span>
+                    <span class="green">PÊCHE DE VIGNE, PISTACHE, MIEL, VANILIE, CHOCOLAT, CITRON, MANGUE</span>
                     <span class="price">4.-</span>
                 </p>
                 <p>
-                    <b>COUPE DE GLACE CITRON ET LIMONCELLO BOUCHELLO</b><br>
-                    <span class="price">9.-</span>
-                </p>
-                <p>
-                    <b>CRÈME BRÛLéE VANILIE DE MADAGASGAR</b><br>
+                    <b>CRÈME BRÜIÉE À LA PISTACHE</b><br>
                     <span class="price">11.-</span>
                 </p>
                 <p>
@@ -210,11 +206,16 @@
                     <span class="price">12.-</span>
                 </p>
                 <p>
-                    <b>TARTELETTE CITRON MAISON</b><br>
+                    <b>TARTELETTE CITRON MAISON</b>
                     <span class="price">12.-</span>
                 </p>
                 <p>
                     <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
+                    <span class="price">14.-</span>
+                </p>
+                <p>
+                    <b>FONDANT AU CHOCOLAT 72% CŒUR NOISETTE</b>
+                    <span class="green">TEMPS DE REALSATION IO MINUTES.</span>
                     <span class="price">14.-</span>
                 </p>
             </span>

@@ -2,19 +2,30 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\RedirectResponse;
-use App\Models\User;
 use Illuminate\Http\Request;
+
+use Illuminate\Http\RedirectResponse;
+use App\Http\Resources\MealResource;
+use App\Http\Resources\MealCategoryResource;
+
+use App\Models\User;
+use App\Models\Meal;
+use App\Models\MealCategory;
 
 class BackofficeControler extends Controller
 {
     function index()
     {
         $user = User::findOrFail(auth()->user()->id);
+        $meals = MealResource::collection(Meal::all());
+        $categories = MealCategoryResource::collection(MealCategory::all());
+
         return view('dashboard')
             ->with([
                 'name' => $user->name,
-                'email' => $user->email
+                'email' => $user->email,
+                'meals' => $meals,
+                'categories' => $categories,
             ]);
     }
 

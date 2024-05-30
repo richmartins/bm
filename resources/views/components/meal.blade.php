@@ -16,6 +16,7 @@
 
         <span class="bo-form-submit-group">
             <input type="submit" value="Add meal"/>
+        </span>
     </form>
 
 

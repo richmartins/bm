@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BackofficeControler;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MealController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,15 +37,13 @@ Route::group([
 ], function(){
 
     // dashboard
-    Route::get('dashboard', [BackofficeControler::class, 'index'])->name('dashboard');
+    Route::get('dashboard', [BackofficeControler::class, 'index'])
+        ->name('dashboard');
 
     // upload new menues
     Route::post('menus/update', [BackofficeControler::class, 'update_menu'])
         ->name('update_menu');
+
+    Route::post('menus/update-meals', [MealController::class, 'update-meals'])
+        ->name('update_meals');
 });
-
-// Route::get();
-// Route::post();
-// Route::put();
-// Route::delete();
-

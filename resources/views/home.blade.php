@@ -94,14 +94,6 @@
                         <span class="price">15.-</span>
                     </p>
                     <p>
-                        <b>OEUFS MIMOSA</b><br>
-                        <span class="price">9.-</span>
-                    </p>
-                    <p>
-                        <b>DUO D'ASPERGES ET SA SAUCE HOLLANDAiSE MAiSON</b><br>
-                        <span class="price">18.-</span>
-                    </p>
-                    <p>
                         <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
                         <span class="price">18.- / 35.-</span>
@@ -118,27 +110,6 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
-
-                    <p>
-                        <b>DUO DE C0URGETTES DU MARCHÉ CUENDET</b><br>
-                        <span class="green">BOUQUET AROMATiQUE, ViERGE DE TOMATE CROUSTiLLANTS D'OLiVE NOiR</span>
-                        <span class="price">28.-</span>
-                    </p>
-                    <p>
-                        <b>DOS DE CABiLLAUD RÔTi ET SA ViERGE PRiNTANiÈRE</b><br>
-                        <span class="green">SAUTÉE DE PETiTS POiS, POMMES RiSSOLÉES</span>
-                        <span class="price">36.-</span>
-                    </p>
-                    <p>
-                        <b>CARRÉ D'AGNEAU EN CROÛTE D'HERBE</b><br>
-                        <span class="green">jus corsé à la framboise, asperges rôties, pommes grenailles</span>
-                        <span class="price">47.-</span>
-                    </p>
-                    <p>
-                        <b>CÔTE DE BOEUF RASSiS SUR OS </b><span class="red">500 GR</span><br>
-                        <span class="green">FRiTES MAiSON, LÉGUMES DE SAiSON</span>
-                        <span class="price">54.-</span>
-                    </p>
                     <p>
                         <b>NOTRE BELLE SALADE DE LA SEMAiNE</b><br>
                         <span class="price">24.-</span>
@@ -149,20 +120,44 @@
                         <span class="price">25.-</span>
                     </p>
                     <p>
-                        <b>SALADE DE MALAKOFFS MAiSON</b><br>
-                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
+                        <b>SAMOUSSA DE SAiSON ET SON CHUTNEY POMME</b><br>
+                        <span class="green">DUO DE QUiNOA AUBERGiNES GRiLLÉES</span>
+                        <span class="price">28.-</span>
+                    </p>
+                    <p>
+                        <b>FiLET D'OMBLE CHEVALiER MEUNiÈRE</b>
+                        <span class="green">POMMES FONDANTES JARDINIÈRE DE LÉGUMES</span>
+                        <span class="price">38.-</span>
+                    </p>
+                    <p>
+                        <b>CONFiT DE CANARD JUS À LA SARiETTE</b><br>
+                        <span class="green">POMMES SARLADAiSES</span>
+                        <span class="price">47.-</span>
+                    </p>
+                    <p>
+                        <b>ENTRECÔTE DOUBLE DE LA BOUCHERiE STUBY</b>
+                        <span class="green">SAUCE BÉARNAiSE</span>
+                        <span class="price">54.-</span>
+                    </p>
+
+                    <!-- les incontournables -->
+
+                    <p>
+                        <b>SALADE DE CROUSTLLANTS DE CHÈVRE CHAUD</b><br>
+                        <span class="green"> SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS MELANGE DE NOIX CARAMELSEES, VINAIGRETTE A LA VANILLE</span>
+                        <span class="price">24.-</span>
+                    </p>
+
+                    <p>
+                        <b>SALADE DE MALAKOFFS MAISON</b><br>
+                        <span class="green">SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS, MELANGE DE NOIX GARAMELSEES, VINAIGRETTE A LA VANILLE</span>
                         <span class="price">26.-</span>
                     </p>
                     <p>
-                        <b>ENTRECÔTE PARiSiENNE DE BŒUF - <span class="green">PLAT SiGNATURE</span></b><br>
+                        <b>ENTRECÔTE PARiSiENNE DE BŒUF 200GR - <span class="green">PLAT SiGNATURE</span></b><br>
                         <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
                         <span class="price">28.- / +12.-</span>
-                    </p>
-                    <p>
-                        <b>DEMi C0QUELET DE LA BOUCHERiE STUBY</b><br>
-                        <span class="green">JUS DE CUiSSON RÉDUiT, HARiCOTS VERTS</span>
-                        <span class="price">24.-</span>
                     </p>
                     <p>
                         <b>FOiE DE VEAU AU ViNAiGRE DE ViN ET ÉCHALOTES</b><br>
@@ -193,7 +188,7 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">PÊCHE DE VIGNE, PISTACHE, MIEL, VANILIE, CHOCOLAT, CITRON, MANGUE</span>
+                    <span class="green">CHOCOLAT, BERGAMOTE, MIEL, PISTACHE PêCHE EARL GREY POIRE</span>
                     <span class="price">4.-</span>
                 </p>
                 <p>
@@ -210,12 +205,12 @@
                     <span class="price">12.-</span>
                 </p>
                 <p>
-                    <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
+                    <b>FONDANT AU CHOCOLAT 72% CŒUR NOISETTE</b><br>
+                    <span class="green">TEMPS DE REALSATION IO MINUTES.</span>
                     <span class="price">14.-</span>
                 </p>
                 <p>
-                    <b>FONDANT AU CHOCOLAT 72% CŒUR NOISETTE</b><br>
-                    <span class="green">TEMPS DE REALSATION IO MINUTES.</span>
+                    <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
                     <span class="price">14.-</span>
                 </p>
             </span>

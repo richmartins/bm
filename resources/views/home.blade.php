@@ -72,29 +72,36 @@
                     </p>
                     <p>
                         <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">BETTERAVE, CÉLERi, CAROTTE</span>
+                        <span class="green">FENOUiL, TOMATE CERiSE, CAROTTE</span>
                         <span class="price">9.-</span>
                     </p>
                     <p>
                         <b>MALAKOFF MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
                         <span class="price">3.- / 9.-</span>
                     </p>
+                
                     <p>
-                        <b>GARLIC BREAD MAISON</b>
-                        <span class="price">8.-</span>
+                        <b>ACCRAS DE MORUE</b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
+                        <span class="green">ROUiLLE MAiSON</span>
+                        <span class="price">3.- / 9.-</span>
                     </p>
                     <p>
-                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
-                        <span class="green">BEURRE AUX HERBES <span class="red">6 PiÈCES</span></span>
+                        <b>SAMOUSA MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
+                        <span class="green">YAOURT À LA MENTHE</span>
+                        <span class="price">4.- / 12.-</span>
+                    </p>
+                    <p>
+                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES </b><span class="red">6 PiÈCES</span><br>
+                        <span class="green">BEURRE AUX HERBES</span>
                         <span class="price">14.-</span>
                     </p>
                     <p>
-                        <b>OS À MOELLE AU SEL DE CAMARGUE</b><br>
+                        <b>OS À MOELLE AU SEL DE CAMARGUE</b>
                         <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
                         <span class="price">15.-</span>
                     </p>
                     <p>
-                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
+                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU </b><span class="red">ENTRÉE / PLAT</span><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
                         <span class="price">18.- / 35.-</span>
                     </p>
@@ -110,34 +117,27 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
+
                     <p>
-                        <b>NOTRE BELLE SALADE DE LA SEMAiNE</b><br>
-                        <span class="price">24.-</span>
-                    </p>
-                    <p>
-                        <b>SUGGESTiON DU JOUR</b><br>
-                        <span class="green">SERVi AVEC UNE PETiTE SALADE VERTE</span>
-                        <span class="price">25.-</span>
-                    </p>
-                    <p>
-                        <b>SAMOUSSA DE SAiSON ET SON CHUTNEY POMME</b><br>
-                        <span class="green">DUO DE QUiNOA AUBERGiNES GRiLLÉES</span>
+                        <b>AUBERGiNE FARCiE ET TABOULÉ MAiSON</b><br>
+                        <span class="green">SALADiNE DU MARCHÉ CUENDET</span>
                         <span class="price">28.-</span>
                     </p>
+
                     <p>
-                        <b>FiLET D'OMBLE CHEVALiER MEUNiÈRE</b>
-                        <span class="green">POMMES FONDANTES JARDINIÈRE DE LÉGUMES</span>
-                        <span class="price">38.-</span>
+                        <b>ONGLET DE BŒUF CHiMiCHURRi</b><br>
+                        <span class="green">POMMES GRENAiLLES SAUTÉES AUX HERBES</span>
+                        <span class="price">36.-</span>
                     </p>
                     <p>
-                        <b>CONFiT DE CANARD JUS À LA SARiETTE</b><br>
-                        <span class="green">POMMES SARLADAiSES</span>
-                        <span class="price">47.-</span>
+                        <b>ESCALOPE DE VEAU ViENNOiSE</b><br>
+                        <span class="green">ÉPiNARDS AU BEURRE, POMMES FRiTES MAiSON</span>
+                        <span class="price">42.-</span>
                     </p>
                     <p>
-                        <b>ENTRECÔTE DOUBLE DE LA BOUCHERiE STUBY</b>
-                        <span class="green">SAUCE BÉARNAiSE</span>
-                        <span class="price">54.-</span>
+                        <b>FiLET DE SAiNT-PiERRE MEUNiÈRE</b><br>
+                        <span class="green">LÉGUMES DE SAiSON GRiLLÉS, POMMES RiSSOLÉES</span>
+                        <span class="price">48.-</span>
                     </p>
 
                     <!-- les incontournables -->
@@ -158,18 +158,6 @@
                         <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
                         <span class="price">28.- / +12.-</span>
-                    </p>
-                    <p>
-                        <b>FOiE DE VEAU AU ViNAiGRE DE ViN ET ÉCHALOTES</b><br>
-                        <span class="green">MOUSELiNE DE POMMES DE TERRE</span>
-                        <span class="price">26.-</span>
-                    </p>
-                    <p>
-                        <p>
-                            <b>C0RDON BLEU</b><br>
-                            <span class="green">LÉGUMES DE SAiSON, POMMES GRENAiLLES SAUTÉES À LA SAUGE</span>
-                            <span class="price">28.-</span>
-                        </p>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">

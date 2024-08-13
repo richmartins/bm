@@ -176,26 +176,24 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">CHOCOLAT, BERGAMOTE, MIEL, PISTACHE PêCHE EARL GREY POIRE</span>
+                    <span class="green">CHOCOLAT, BERGAMOTE, PiSTACHE, PÊCHE DE ViGNE, EARL GREY, POiRE,ABRiCTO ,VANiLLE,BOURBON,NOiSETTE</span>
                     <span class="price">4.-</span>
                 </p>
                 <p>
-                    <b>CRÈME BRÜIÉE À LA PISTACHE</b><br>
+                    <b>CRÈME BRÛLÉE TONKA</b><br>
                     <span class="price">11.-</span>
                 </p>
                 <p>
-                    <b>TARTE TATIN MAISON</b><br>
-                    <span class="green">BOULE DE GLACE VANILLE BOURBON</span>
-                    <span class="price">12.-</span>
+                    <b>PANNA COTTA AUX FRUiTS ROUGES</b><br>
+                    <span class="price">11.-</span>
                 </p>
                 <p>
                     <b>TARTELETTE CITRON MAISON</b>
                     <span class="price">12.-</span>
                 </p>
                 <p>
-                    <b>FONDANT AU CHOCOLAT 72% CŒUR NOISETTE</b><br>
-                    <span class="green">TEMPS DE REALSATION IO MINUTES.</span>
-                    <span class="price">14.-</span>
+                    <b>BRiOCHE PERDUE, FRUiTS DE SAiSON ET VANiLLE BOURBON</b><br>
+                    <span class="price">12.-</span>
                 </p>
                 <p>
                     <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>

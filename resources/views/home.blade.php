@@ -81,7 +81,7 @@
                     </p>
                 
                     <p>
-                        <b>ACCRAS DE MORUE</b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
+                        <b>ACCRAS DE MORUE </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
                         <span class="green">ROUiLLE MAiSON</span>
                         <span class="price">3.- / 9.-</span>
                     </p>

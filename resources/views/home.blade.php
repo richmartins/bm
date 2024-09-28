@@ -79,20 +79,17 @@
                         <b>MALAKOFF MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
                         <span class="price">3.- / 9.-</span>
                     </p>
-                
                     <p>
-                        <b>ACCRAS DE MORUE </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
-                        <span class="green">ROUiLLE MAiSON</span>
-                        <span class="price">3.- / 9.-</span>
+                        <b>GARLC BREAD MAISON</b><br>
+                        <span class="price">9.-</span>
                     </p>
                     <p>
-                        <b>SAMOUSA MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
-                        <span class="green">YAOURT À LA MENTHE</span>
-                        <span class="price">4.- / 12.-</span>
+                        <b>ŒUF EN MEURETTE</b>
+                        <span class="price">13.-</span>
                     </p>
                     <p>
-                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES </b><span class="red">6 PiÈCES</span><br>
-                        <span class="green">BEURRE AUX HERBES</span>
+                        <b>ESCARGOTS DU MONT D'OR EN COQUILLES</b><br>
+                        <span class="green">Beurre aux herbes</span> <span class="red">6 pièces</span>
                         <span class="price">14.-</span>
                     </p>
                     <p>
@@ -119,33 +116,34 @@
                         alt="plats-txt" />
 
                     <p>
-                        <b>AUBERGiNE FARCiE ET TABOULÉ MAiSON</b><br>
-                        <span class="green">SALADiNE DU MARCHÉ CUENDET</span>
+                        <b>FRIGASSEE DE CHAMPIGNONS DE SAISON</b><br>
+                        <span class="green">FOCACIA GRILÉE - SALADINE DU MARGHE CUENDET</span>
                         <span class="price">28.-</span>
                     </p>
 
                     <p>
-                        <b>ONGLET DE BŒUF CHiMiCHURRi</b><br>
-                        <span class="green">POMMES GRENAiLLES SAUTÉES AUX HERBES</span>
-                        <span class="price">36.-</span>
-                    </p>
-                    <p>
-                        <b>ESCALOPE DE VEAU ViENNOiSE</b><br>
-                        <span class="green">ÉPiNARDS AU BEURRE, POMMES FRiTES MAiSON</span>
-                        <span class="price">42.-</span>
-                    </p>
-                    <p>
-                        <b>FiLET DE SAiNT-PiERRE MEUNiÈRE</b><br>
-                        <span class="green">LÉGUMES DE SAiSON GRiLLÉS, POMMES RiSSOLÉES</span>
-                        <span class="price">48.-</span>
+                        <b>FILET D'OMBLE CHEVALER CHIMIGHURRI</b><br>
+                        <span class="green">POMMES GRENAILES JARDINIERE DE LEGUMES</span>
+                        <span class="price">38.-</span>
                     </p>
 
+                    <p>
+                        <b>SAUCISSE A ROTIR DE LA BOUGHERIE GAGHIN</b><br>
+                        <span class="green">SAUCE A LEGHAL•TES, MOUSSELNE DE POMMES DE TERRE. LÉGUMES DE SAISON</span>
+                        <span class="sprice">42.-</span>
+                    </p>
+
+                    <p>
+                        <b>COTE DE BŒUF RASSIS SUR OS 500GR</b><br>
+                        <span class="green">FRITES MAISON. LÉGUMES DE SAISON</span>
+                        <span class="price">48.-</span>
+                    </p>
                     <!-- les incontournables -->
 
                     <p>
                         <b>SALADE DE CROUSTLLANTS DE CHÈVRE CHAUD</b><br>
                         <span class="green"> SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS MELANGE DE NOIX CARAMELSEES, VINAIGRETTE A LA VANILLE</span>
-                        <span class="price">24.-</span>
+                        <span class="price">25.-</span>
                     </p>
 
                     <p>
@@ -158,6 +156,12 @@
                         <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
                         <span class="price">28.- / +12.-</span>
+                    </p>
+
+                    <p>
+                        <b>ESCALOPE DE VEAU VIENNOISE</b><br>
+                        <span class="green">EPINARDS AU BEURRE. POMMES FRITES MAISON</span>
+                        <span class="price">42.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -180,24 +184,25 @@
                     <span class="price">4.-</span>
                 </p>
                 <p>
-                    <b>CRÈME BRÛLÉE TONKA</b><br>
+                    <b>CRÈME BRUÉE CITRON ET VANILLE</b><br>
                     <span class="price">11.-</span>
                 </p>
                 <p>
-                    <b>PANNA COTTA AUX FRUiTS ROUGES</b><br>
-                    <span class="price">11.-</span>
+                    <b>ÉCLAIR CRAQUELN AU MCCCA</b><br>
+                    <span class="price">14.-</span>
                 </p>
+
                 <p>
-                    <b>TARTELETTE CITRON MAISON</b>
-                    <span class="price">12.-</span>
-                </p>
-                <p>
-                    <b>BRiOCHE PERDUE, FRUiTS DE SAiSON ET VANiLLE BOURBON</b><br>
+                    <b>BRIoCHE PERDUE, FRUITS DE SAISON ET VANILE BOURBON</b><br>
                     <span class="price">12.-</span>
                 </p>
                 <p>
                     <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
                     <span class="price">14.-</span>
+                </p>
+                <p>
+                    <b>TOUT EN CHOCOLAT</b><br>
+                    <span class="price">12.-</span>
                 </p>
             </span>
             <span class="m-col col"

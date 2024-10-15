@@ -28,7 +28,7 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
                 '.bo-form-meals-grid:last-child input[name^="meals["]'
             )
             .getAttribute("name")
-            .match(/\d+/g)[0];
+            .match(/\d+/g)[0] || 0;
         const newMealId = parseInt(lastMealId) + 1;
 
         form_meals_grid.appendChild(createInput("text", "title", newMealId));

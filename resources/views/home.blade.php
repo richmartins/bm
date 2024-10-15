@@ -100,71 +100,23 @@
             <span class="c-col col c-col-carte menu-font">
 
                 <span>
-                <img class="col-txt-img"
-                    src="{{ asset('/storage/img/plats.png') }}"
-                    alt="plats-txt" />
+                    <img class="col-txt-img"
+                        src="{{ asset('/storage/img/plats.png') }}"
+                        alt="plats-txt" />
 
-                @foreach ($menus[1]->meals as $main)
-                    <p>
-                        <b>{{ $main->title }}</b><br>
-                        <span class="green">{{ $main->description }}</span>
-                        <span class="price">{{ $main->price }}</span>
-                    </p>
-                @endforeach
-
-                {{-- <p>
-                        <b>CHASSEUR BREDOUILLE</b><br>
-                        <span class="green">SPAETZLi, CHOU ROUGE, MARRONS GLACÉS, CHOUX DE BRUXELLES POiRES À BOTZi AU ViN ROUGE, AiRELLES</span>
-                        <span class="price">25.-</span>
-                    </p>
-
-                    <p>
-                        <b>BURGER DE CHASSE AU SANGLiER</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                        <span class="price">36.-</span>
-                    </p>
-                    <p>
-                        <b>SAUCiSSE À RÔTiR DE SANGLiER AUX MORiLLES</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                        <span class="price">36.-</span>
-                    </p>
-                    <p>
-                        <b>CiVET DE CHEVREUiL</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                        <span class="price">36.-</span>
-                    </p>
-
-                    <p>
-                        <b>MÉDAiLLON DE CERF, SAUCE GRAND VENEUR</b><br>
-                        <span class="green">GARNiTURE CHASSE</span>
-                        <span class="price">48.-</span>
-                    </p>
-
-                    <!-- les incontournables -->
-
-                    <p>
-                        <b>SALADE DE CROUSTLLANTS DE CHÈVRE CHAUD</b><br>
-                        <span class="green"> SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS MELANGE DE NOIX CARAMELSEES, VINAIGRETTE A LA VANILLE</span>
-                        <span class="price">25.-</span>
-                    </p>
-
-                    <p>
-                        <b>SALADE DE MALAKOFFS MAISON</b><br>
-                        <span class="green">SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS, MELANGE DE NOIX GARAMELSEES, VINAIGRETTE A LA VANILLE</span>
-                        <span class="price">26.-</span>
-                    </p>
-                    <p>
-                        <b>ENTRECÔTE PARiSiENNE DE BŒUF 200GR - <span class="green">PLAT SiGNATURE</span></b><br>
-                        <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
-                        <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
-                        <span class="price">28.- / +12.-</span>
-                    </p> --}}
-            </span>
-            <span class="c-col-carte-img-container">
-                <img class="c-col-catel"
-                    src="{{ asset('/storage/img/fleche.png') }}"
-                    alt="arrow-down" />
-            </span>
+                    @foreach ($menus[1]->meals as $main)
+                        <p>
+                            <b>{{ $main->title }}</b><br>
+                            <span class="green">{{ $main->description }}</span>
+                            <span class="price">{{ $main->price }}</span>
+                        </p>
+                    @endforeach
+                </span>
+                <span class="c-col-carte-img-container">
+                    <img class="c-col-catel"
+                        src="{{ asset('/storage/img/fleche.png') }}"
+                        alt="arrow-down" />
+                </span>
             </span>
         </div>
     </section>
@@ -181,29 +133,6 @@
                         <span class="price">{{ $dessert->price }}</span>
                     </p>
                 @endforeach
-                {{-- <p>
-                    <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">CHOCOLAT, VANiLLE, CiTRON, POiRE, PÊCHE DE ViGNE,NOiSETTE, PiSTACHE</span>
-                    <span class="price">3.5</span>
-                </p>
-                <p>
-                    <b>CRÈME BRULÉE VANiLLE</b><br>
-                    <span class="price">11.-</span>
-                </p>
-                <p>
-                    <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
-                    <span class="price">14.-</span>
-                </p>
-                <p>
-                    <b>MONT-BLANC VERMiCELLES DE MARRON</b><br>
-                    <span class="green">DOUBLE CRÈME, MERiNGUE SUiSSE</span>
-                    <span class="price">14.-</span>
-                </p>
-                <p>
-                    <b>POiRE AU ViN ROUGE & PORTO</b><br>
-                    <span class="green">GANACHE AU MiEL, ET SABLÉ BRETON</span>
-                    <span class="price">14.-</span>
-                </p> --}}
             </span>
             <span class="m-col col"
                 id="link-menus">

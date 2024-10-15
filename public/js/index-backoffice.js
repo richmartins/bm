@@ -12,6 +12,10 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
             input.setAttribute("type", type);
             input.setAttribute("name", `meals[${meal_id}][${name}]`);
             input.setAttribute("value", value);
+            
+            if (name === "title") {
+                input.setAttribute('required', true);
+            }
 
             return input;
         };

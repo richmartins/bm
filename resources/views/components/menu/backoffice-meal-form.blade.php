@@ -2,6 +2,7 @@
     <input class="bo-input"
         type="text"
         name="meals[{{ $meal->id }}][title]"
+        required
         value="{{ $meal->title }}"
     >
     <input class="bo-input"

@@ -67,46 +67,45 @@
                         src="{{ asset('/storage/img/entree.png') }}"
                         alt="plats-txt" />
                     <p>
-                        <b>salade de jeunes pousses</b>
-                        <span class="price">6.-</span>
-                    </p>
-                    <p>
-                        <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">BETTERAVE, CÉLERiE, CAROTTE</span>
-                        <span class="price">9.-</span>
-                    </p>
-                    <p>
-                        <b>MALAKOFF MAiSON</b><br><span class="red"> 1 Pièce / 3 pièces</span>
-                        <span class="price">3.- / 9.-</span>
-                    </p>
-                    <p>
-                        <b>GARLIC BREAD MAISON</b><br>
+                        <b>SALADE DE JEUNES POUSSES</b><br>
                         <span class="price">8.-</span>
                     </p>
                     <p>
-                        <b>ESCARGOTS DU MONT D'OR EN C0QUiLLES</b><br>
-                        <span class="green">BEURRE AUX HERBES</span><span class="red"> <b>6 PiÈCES</b></span>
+                        <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
+                        <span class="green">CAROTTE, CHOU ROUGE, BETTERAVE</span>
+                        <span class="price">11.-</span>
+                    </p>
+                    <p>
+                        <b>MALAKOFF MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
+                        <span class="price">3.- / 9.-</span>
+                    </p>
+                    <p>
+                        <b>SOUPE À LA COURGE & AUX MARRONS DU MARCHÉ CUENDET</b><br>
                         <span class="price">14.-</span>
                     </p>
                     <p>
-                        <b>OS À MOELLE AU SEL DE CAMARGUE</b><br>
-                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
+                        <b>ESCARGOTS DU MONT D'OR EN COQUILLES</b><br>
+                        <span class="green">Beurre aux herbes</span> <span class="red">6 pièces</span>
+                        <span class="price">14.-</span>
+                    </p>
+                    <p>
+                        <b>OS À MOELLE</b>
+                        <span class="green">BRiOCHE GRiLLÉE</span>
                         <span class="price">15.-</span>
                     </p>
                     <p>
-                        <b>POiREAUX ViNAiGRETTE</b><br>
-                        <span class="green">CÂPRES FRiTS ,ViNAiGRETTE AU YAOURT</span>
-                        <span class="price">15.-</span>
+                        <b>TERRiNE DE CHEVREUiL DE CHEZ STUBY</b><br>
+                        <span class="green">CHUTNEY MAiSON ET SALADE</span>
                     </p>
                     <p>
-                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU <span class="red">ENTRÉE / PLAT</span></b><br>
+                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU </b><span class="red">ENTRÉE / PLAT</span><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
-                        <span class="price">18.-/35.-</span>
+                        <span class="price">18.- / 34.-</span>
                     </p>
                     <p>
-                        <b>FOiE GRAS MAiSON 80GR ET SON CHUTNEY</b><br>
-                        <span class="green">Belle brioche grillée</span>
-                        <span class="price">22.-</span>
+                        <b>FOiE GRAS MAiSON </b><span class="red">80G / 120G</span><br>
+                        <span class="green">CHUTNEY MAiSON ET BRiOCHE</span>
+                        <span class="price">22.- /35.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -120,49 +119,53 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/plats.png') }}"
                         alt="plats-txt" />
+
                     <p>
-                        <b>BŒUF BOURGUiGNON</b><br>
-                        <span class="green">LÉGUMES TOURNÉS, GARNiTURE BOURGUiGNONNE</span>
-                        <span class="price">38.-</span>
+                        <b>CHASSEUR BREDOUILLE</b><br>
+                        <span class="green">SPAETZLi, CHOU ROUGE, MARRONS GLACÉS, CHOUX DE BRUXELLES POiRES À BOTZi AU ViN ROUGE, AiRELLES</span>
+                        <span class="price">25.-</span>
                     </p>
 
                     <p>
-                        <b>QUEUE DE LOTTE AUX CiTRONS C0NFiTS</b><br>
-                        <span class="green">MOUSSELiNE DE CÉLERi, CiMA Di RAPA</span>
-                        <span class="price">39.-</span>
+                        <b>BURGER DE CHASSE AU SANGLiER</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">36.-</span>
                     </p>
-
-
                     <p>
-                        <b>ARAiGNÉE DE VEAU JUS C0RSÉ</b><br>
-                        <span class="green">GRATiN DAUPHiNOiS, DÉCLiNAiSON DE CAROTTES</span>
-                        <span class="price">42.-</span>
+                        <b>SAUCiSSE À RÔTiR DE SANGLiER AUX MORiLLES</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">36.-</span>
                     </p>
-
                     <p>
-                        <b>CÔTE DE BŒUF RASSiE SUR OS 30 JOURS <span class="red">MIN. 2P</span></b><br>
-                        <span class="green">
-                            <b>BOUCHERiE STUBY</b>
-                            <br>MOUSSELiNE MAiSON, LÉGUMES DE SAiSON
-                            <br>SAUCE AU POiVRE ET BEURRE MONTELLY
-                        </span>
-                        <span class="price">65.-PP</span>
+                        <b>CiVET DE CHEVREUiL</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">36.-</span>
                     </p>
 
                     <p>
-                        <b>SALADE DE MALAKOFFS MAiSON</b><br>
-                        <span class="green">SALADE DE JEUNES POUSSES, DÉCLiNAiSON DE RADiS, MÉLANGE DE NOiX, CARAMÉLiSÉES, ViNAiGRETTE À LA VANiLLE</span>
+                        <b>MÉDAiLLON DE CERF, SAUCE GRAND VENEUR</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">48.-</span>
+                    </p>
+
+                    <!-- les incontournables -->
+
+                    <p>
+                        <b>SALADE DE CROUSTLLANTS DE CHÈVRE CHAUD</b><br>
+                        <span class="green"> SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS MELANGE DE NOIX CARAMELSEES, VINAIGRETTE A LA VANILLE</span>
+                        <span class="price">25.-</span>
+                    </p>
+
+                    <p>
+                        <b>SALADE DE MALAKOFFS MAISON</b><br>
+                        <span class="green">SALADE DE JEUNES POUSSES, DECLINAISON DE RADIS, MELANGE DE NOIX GARAMELSEES, VINAIGRETTE A LA VANILLE</span>
                         <span class="price">26.-</span>
                     </p>
                     <p>
-                        <b>ENTRECÔTE PARiSiENNE DE BŒUF - <span class="green">PLAT SiGNATURE</span></b><br>
+                        <b>ENTRECÔTE PARiSiENNE DE BŒUF 200GR - <span class="green">PLAT SiGNATURE</span></b><br>
+                        <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
-                        <span class="price">28.-</span>
-                    </p>
-                    <p>
-                        <b>SAUCiSSE À RÔTiR DE LA BOUCHERiE CACHiN</b><br>
-                        <span class="green">MOUSSELiNE DE POMMES DE TERRE, LÉGUMES DE SAiSON</span>
-                        <span class="price">32.-</span>
+                        <span class="price">28.- / +12.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -181,25 +184,26 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">VANILLE BOURBON, EARL GREY, CHOCOLAT FRUITS ROUGE, MANGUE, CITRON, MANDARINE</span>
-                    <span class="price">4.-</span>
+                    <span class="green">CHOCOLAT, VANiLLE, CiTRON, POiRE, PÊCHE DE ViGNE,NOiSETTE, PiSTACHE</span>
+                    <span class="price">3.5</span>
                 </p>
                 <p>
-                    <b>CRÈME BRÛLÉE CARDAMOME</b><br>
+                    <b>CRÈME BRULÉE VANiLLE</b><br>
                     <span class="price">11.-</span>
-                </p>
-                <p>
-                    <b>BROWNiE AU CHOCOLAT ET NOiX DE PÉCAN</b><br>
-                    <span class="green">CARAMEL BEURRE SALÉ, BOULE À CHOiX</span>
-                    <span class="price">12.-</span>
                 </p>
                 <p>
                     <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
                     <span class="price">14.-</span>
                 </p>
                 <p>
-                    <b>TARTELETTE CITRON MAISON</b><br>
-                    <span class="price">12.-</span>
+                    <b>MONT-BLANC VERMiCELLES DE MARRON</b><br>
+                    <span class="green">DOUBLE CRÈME, MERiNGUE SUiSSE</span>
+                    <span class="price">14.-</span>
+                </p>
+                <p>
+                    <b>POiRE AU ViN ROUGE & PORTO</b><br>
+                    <span class="green">GANACHE AU MiEL, ET SABLÉ BRETON</span>
+                    <span class="price">14.-</span>
                 </p>
             </span>
             <span class="m-col col"

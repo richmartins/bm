@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->longText('description'); # green part
-            $table->float('price');
+            $table->string('price');
 
             $table->foreignId('id_category')->constrained('meals_categories');
 

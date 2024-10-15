@@ -24,17 +24,23 @@
             </span>
             <span class="d-txt col">
                 <p>
-                    La Brasserie de Montelly, est un café-restaurant ouvert en 1929, au croisement des quartiers de Montoie et de Montelly.
+                    La Brasserie de Montelly, est un café-restaurant ouvert en 1929, au croisement des quartiers de
+                    Montoie et de Montelly.
                 </p>
                 <p>
-                    Son intérieur sobre et accueillant, en demi-lune, éclairé par de grandes baies vitrées, a conservé toute son authenticité. Les boiseries murales ainsi que le parquet accentuent le charme évident du café et contribuent à la belle ambiance des lieux.
+                    Son intérieur sobre et accueillant, en demi-lune, éclairé par de grandes baies vitrées, a conservé
+                    toute son authenticité. Les boiseries murales ainsi que le parquet accentuent le charme évident du
+                    café et contribuent à la belle ambiance des lieux.
                 </p>
                 <p>
-                    Suivant les moments de la journée, l'établissement passe d'une ambiance de brasserie de quartier, à celle d'un restaurant dans l'air du temps. Dès les beaux jours, la façade en pierres de taille ajoute son décor à notre grande terrasse fleurie et ensoleillée.
+                    Suivant les moments de la journée, l'établissement passe d'une ambiance de brasserie de quartier, à
+                    celle d'un restaurant dans l'air du temps. Dès les beaux jours, la façade en pierres de taille
+                    ajoute son décor à notre grande terrasse fleurie et ensoleillée.
                 </p>
                 <p>
                     L'établissement est labelisé « Café historique de Lausanne » depuis 2021.
-                    Depuis près d'un siècle, les générations se succèdent à la Brasserie de Montelly, pour le plus grand bonheur des amoureux du quartier.
+                    Depuis près d'un siècle, les générations se succèdent à la Brasserie de Montelly, pour le plus grand
+                    bonheur des amoureux du quartier.
                 </p>
             </span>
         </div>
@@ -46,19 +52,28 @@
                     src="{{ asset('/storage/img/la_carte.png') }}"
                     alt="plats-txt" />
                 <p>
-                    Découvrez une expérience culinaire dynamique, inspirée par les saveurs locales et les saisons. À midi, explorez notre sélection de plats variés qui évoluent chaque semaine, mêlant les classiques de la brasserie traditionnelle à des plats locaux.
+                    Découvrez une expérience culinaire dynamique, inspirée par les saveurs locales et les saisons. À
+                    midi, explorez notre sélection de plats variés qui évoluent chaque semaine, mêlant les classiques de
+                    la brasserie traditionnelle à des plats locaux.
                 </p>
                 <p>
-                    Le soir, laissez-vous surprendre par une carte renouvelée mensuellement, mettant en avant notre engagement à vous offrir le meilleur des produits locaux, soigneusement sélectionnés pour vous garantir une expérience gustative authentique.
+                    Le soir, laissez-vous surprendre par une carte renouvelée mensuellement, mettant en avant notre
+                    engagement à vous offrir le meilleur des produits locaux, soigneusement sélectionnés pour vous
+                    garantir une expérience gustative authentique.
                 </p>
                 <p>
-                    Notre passion pour les vins transparaît dans notre sélection soignée de vins régionaux, de crus renommés et d'importations internationales. Nous nous efforçons d'y ajouter une sélection de vins hors carte pour sublimer nos plats.
+                    Notre passion pour les vins transparaît dans notre sélection soignée de vins régionaux, de crus
+                    renommés et d'importations internationales. Nous nous efforçons d'y ajouter une sélection de vins
+                    hors carte pour sublimer nos plats.
                 </p>
                 <p>
-                    Explorez également notre bar où une variété de bières artisanales et de cocktails vous attend, incluant des créations temporaires pour rendre votre visite unique.
+                    Explorez également notre bar où une variété de bières artisanales et de cocktails vous attend,
+                    incluant des créations temporaires pour rendre votre visite unique.
                 </p>
                 <p>
-                    Notre équipe chaleureuse vous accueille pour une expérience authentique de brasserie de quartier, alliant le charme local à un service de qualité. Nous vous souhaitons la bienvenue et sommes impatients de vous faire découvrir notre univers culinaire.
+                    Notre équipe chaleureuse vous accueille pour une expérience authentique de brasserie de quartier,
+                    alliant le charme local à un service de qualité. Nous vous souhaitons la bienvenue et sommes
+                    impatients de vous faire découvrir notre univers culinaire.
                 </p>
             </span>
             <span class="c-col col c-col-carte menu-font">
@@ -66,47 +81,15 @@
                     <img class="col-txt-img"
                         src="{{ asset('/storage/img/entree.png') }}"
                         alt="plats-txt" />
-                    <p>
-                        <b>SALADE DE JEUNES POUSSES</b><br>
-                        <span class="price">8.-</span>
-                    </p>
-                    <p>
-                        <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">CAROTTE, CHOU ROUGE, BETTERAVE</span>
-                        <span class="price">11.-</span>
-                    </p>
-                    <p>
-                        <b>MALAKOFF MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
-                        <span class="price">3.- / 9.-</span>
-                    </p>
-                    <p>
-                        <b>SOUPE À LA COURGE & AUX MARRONS DU MARCHÉ CUENDET</b><br>
-                        <span class="price">14.-</span>
-                    </p>
-                    <p>
-                        <b>ESCARGOTS DU MONT D'OR EN COQUILLES</b><br>
-                        <span class="green">Beurre aux herbes</span> <span class="red">6 pièces</span>
-                        <span class="price">14.-</span>
-                    </p>
-                    <p>
-                        <b>OS À MOELLE</b>
-                        <span class="green">BRiOCHE GRiLLÉE</span>
-                        <span class="price">15.-</span>
-                    </p>
-                    <p>
-                        <b>TERRiNE DE CHEVREUiL DE CHEZ STUBY</b><br>
-                        <span class="green">CHUTNEY MAiSON ET SALADE</span>
-                    </p>
-                    <p>
-                        <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU </b><span class="red">ENTRÉE / PLAT</span><br>
-                        <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
-                        <span class="price">18.- / 34.-</span>
-                    </p>
-                    <p>
-                        <b>FOiE GRAS MAiSON </b><span class="red">80G / 120G</span><br>
-                        <span class="green">CHUTNEY MAiSON ET BRiOCHE</span>
-                        <span class="price">22.- /35.-</span>
-                    </p>
+
+                    @foreach ($menus[0]->meals as $entree)
+                        <p>
+                            <b>{{ $entree->title }}</b><br>
+                            <span class="green">{{ $entree->description }}</span>
+                            <span class="price">{{ $entree->price }}.-</span>
+                        </p>
+                    @endforeach
+
                 </span>
                 <span class="c-col-carte-img-container">
                     <img class="c-col-catel"
@@ -115,12 +98,21 @@
                 </span>
             </span>
             <span class="c-col col c-col-carte menu-font">
-                <span>
-                    <img class="col-txt-img"
-                        src="{{ asset('/storage/img/plats.png') }}"
-                        alt="plats-txt" />
 
+                <span>
+                <img class="col-txt-img"
+                    src="{{ asset('/storage/img/plats.png') }}"
+                    alt="plats-txt" />
+
+                @foreach ($menus[1]->meals as $main)
                     <p>
+                        <b>{{ $main->title }}</b><br>
+                        <span class="green">{{ $main->description }}</span>
+                        <span class="price">{{ $main->price }}.-</span>
+                    </p>
+                @endforeach
+
+                {{-- <p>
                         <b>CHASSEUR BREDOUILLE</b><br>
                         <span class="green">SPAETZLi, CHOU ROUGE, MARRONS GLACÉS, CHOUX DE BRUXELLES POiRES À BOTZi AU ViN ROUGE, AiRELLES</span>
                         <span class="price">25.-</span>
@@ -166,13 +158,13 @@
                         <b><span class="green">SUPPLÉMENT DE ViANDE, 100 GR</span></b><br>
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
                         <span class="price">28.- / +12.-</span>
-                    </p>
-                </span>
-                <span class="c-col-carte-img-container">
-                    <img class="c-col-catel"
-                        src="{{ asset('/storage/img/fleche.png') }}"
-                        alt="arrow-down" />
-                </span>
+                    </p> --}}
+            </span>
+            <span class="c-col-carte-img-container">
+                <img class="c-col-catel"
+                    src="{{ asset('/storage/img/fleche.png') }}"
+                    alt="arrow-down" />
+            </span>
             </span>
         </div>
     </section>
@@ -182,7 +174,14 @@
                 <img class="m-col-txt-img"
                     src="{{ asset('/storage/img/desserts.png') }}"
                     alt="deserts-txt" />
-                <p>
+                @foreach ($menus[2]->meals as $dessert)
+                    <p>
+                        <b>{{ $dessert->title }}</b><br>
+                        <span class="green">{{ $dessert->description }}</span>
+                        <span class="price">{{ $dessert->price }}.-</span>
+                    </p>
+                @endforeach
+                {{-- <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
                     <span class="green">CHOCOLAT, VANiLLE, CiTRON, POiRE, PÊCHE DE ViGNE,NOiSETTE, PiSTACHE</span>
                     <span class="price">3.5</span>
@@ -204,7 +203,7 @@
                     <b>POiRE AU ViN ROUGE & PORTO</b><br>
                     <span class="green">GANACHE AU MiEL, ET SABLÉ BRETON</span>
                     <span class="price">14.-</span>
-                </p>
+                </p> --}}
             </span>
             <span class="m-col col"
                 id="link-menus">

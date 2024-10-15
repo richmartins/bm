@@ -3,6 +3,8 @@
 use App\Http\Controllers\BackofficeControler;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MealController;
+use App\Http\Resources\MealCategoryResource;
+use App\Models\MealCategory;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +19,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home')->with([
+        'menus' => MealCategoryResource::collection(MealCategory::all()),
+    ]);
 });
 
 // login

@@ -13,12 +13,6 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
             input.setAttribute("name", `meals[${meal_id}][${name}]`);
             input.setAttribute("value", value);
 
-            if (type == "number") {
-                input.setAttribute("step", "0.01");
-                input.setAttribute("min", "1");
-                input.classList.add("bo-input-number");
-            }
-
             return input;
         };
 
@@ -43,7 +37,7 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
         removeBtn.classList.add("bo-input", "bo-remove-btn");
         removeBtn.innerHTML = `<button id="remove_meal_${newMealId}">-</button>`;
         form_meals_grid.appendChild(removeBtn);
-        document
+        e.target.parentElement.parentElement
             .querySelector(".bo-meals-container")
             .appendChild(form_meals_grid);
     });
@@ -53,7 +47,6 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
 document
     .querySelectorAll("button.bo-input.bo-remove-btn")
     .forEach((minus_btn) => {
-        console.log(minus_btn);
         minus_btn.addEventListener("click", (e) => {
             e.preventDefault();
             const form_meals_grid =

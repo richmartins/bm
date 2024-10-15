@@ -51,10 +51,18 @@ class BackofficeControler extends Controller
         $category = MealCategory::findOrFail($request->meal_category_id);
         $category->meals()->delete();
 
+        if (empty($request->meals)) {
+            return redirect()
+                ->back()
+                ->with([
+                    'success' => 'update menu successfully'
+                ]);
+        }
+
         foreach ($request->meals as $meal) {
             $category->meals()->create([
                 'title' => $meal['title'],
-                'description' => $meal['description'],
+                'description' => $meal['description'] ?? "",
                 'price' => $meal['price'],
             ]);
         }

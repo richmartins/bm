@@ -1,9 +1,6 @@
 const removeBtnHandle = (e) => {
     const form_meals_grid = e.target.parentElement.parentElement;
 
-    console.log(e.target.parentElement.parentElement);
-    console.log(form_meals_grid);
-
     if (form_meals_grid) {
         form_meals_grid.remove();
     }
@@ -61,7 +58,6 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
         e.target.parentElement.parentElement
             .querySelector(".bo-meals-container")
             .appendChild(form_meals_grid);
-
     });
 });
 

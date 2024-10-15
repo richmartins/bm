@@ -68,24 +68,20 @@
                         alt="plats-txt" />
                     <p>
                         <b>SALADE DE JEUNES POUSSES</b><br>
-                        <span class="price">6.-</span>
+                        <span class="price">8.-</span>
                     </p>
                     <p>
                         <b>BELLE SALADE MÊLÉE DE SAiSON</b><br>
-                        <span class="green">FENOUiL, TOMATE CERiSE, CAROTTE</span>
-                        <span class="price">9.-</span>
+                        <span class="green">CAROTTE, CHOU ROUGE, BETTERAVE</span>
+                        <span class="price">11.-</span>
                     </p>
                     <p>
                         <b>MALAKOFF MAiSON </b><span class="red">1 PiÈCE / 3 PiÈCES</span><br>
                         <span class="price">3.- / 9.-</span>
                     </p>
                     <p>
-                        <b>GARLC BREAD MAISON</b><br>
-                        <span class="price">9.-</span>
-                    </p>
-                    <p>
-                        <b>ŒUF EN MEURETTE</b>
-                        <span class="price">13.-</span>
+                        <b>SOUPE À LA COURGE & AUX MARRONS DU MARCHÉ CUENDET</b><br>
+                        <span class="price">14.-</span>
                     </p>
                     <p>
                         <b>ESCARGOTS DU MONT D'OR EN COQUILLES</b><br>
@@ -93,14 +89,23 @@
                         <span class="price">14.-</span>
                     </p>
                     <p>
-                        <b>OS À MOELLE AU SEL DE CAMARGUE</b>
-                        <span class="green">BRiOCHE GRiLLÉE, CRUMBLE AUX HERBES</span>
+                        <b>OS À MOELLE</b>
+                        <span class="green">BRiOCHE GRiLLÉE</span>
                         <span class="price">15.-</span>
+                    </p>
+                    <p>
+                        <b>TERRiNE DE CHEVREUiL DE CHEZ STUBY</b><br>
+                        <span class="green">CHUTNEY MAiSON ET SALADE</span>
                     </p>
                     <p>
                         <b>TARTARE DE BŒUF C0UPÉ AU C0UTEAU </b><span class="red">ENTRÉE / PLAT</span><br>
                         <span class="green">FRiTES MAiSON, PAiN GRiLLÉ</span>
-                        <span class="price">18.- / 35.-</span>
+                        <span class="price">18.- / 34.-</span>
+                    </p>
+                    <p>
+                        <b>FOiE GRAS MAiSON </b><span class="red">80G / 120G</span><br>
+                        <span class="green">CHUTNEY MAiSON ET BRiOCHE</span>
+                        <span class="price">22.- /35.-</span>
                     </p>
                 </span>
                 <span class="c-col-carte-img-container">
@@ -116,28 +121,33 @@
                         alt="plats-txt" />
 
                     <p>
-                        <b>FRIGASSEE DE CHAMPIGNONS DE SAISON</b><br>
-                        <span class="green">FOCACIA GRILÉE - SALADINE DU MARGHE CUENDET</span>
-                        <span class="price">28.-</span>
+                        <b>CHASSEUR BREDOUILLE</b><br>
+                        <span class="green">SPAETZLi, CHOU ROUGE, MARRONS GLACÉS, CHOUX DE BRUXELLES POiRES À BOTZi AU ViN ROUGE, AiRELLES</span>
+                        <span class="price">25.-</span>
                     </p>
 
                     <p>
-                        <b>FILET D'OMBLE CHEVALER CHIMIGHURRI</b><br>
-                        <span class="green">POMMES GRENAILES JARDINIERE DE LEGUMES</span>
-                        <span class="price">38.-</span>
+                        <b>BURGER DE CHASSE AU SANGLiER</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">36.-</span>
+                    </p>
+                    <p>
+                        <b>SAUCiSSE À RÔTiR DE SANGLiER AUX MORiLLES</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">36.-</span>
+                    </p>
+                    <p>
+                        <b>CiVET DE CHEVREUiL</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
+                        <span class="price">36.-</span>
                     </p>
 
                     <p>
-                        <b>SAUCISSE A ROTIR DE LA BOUGHERIE GAGHIN</b><br>
-                        <span class="green">SAUCE A LEGHAL•TES, MOUSSELNE DE POMMES DE TERRE. LÉGUMES DE SAISON</span>
-                        <span class="sprice">42.-</span>
-                    </p>
-
-                    <p>
-                        <b>COTE DE BŒUF RASSIS SUR OS 500GR</b><br>
-                        <span class="green">FRITES MAISON. LÉGUMES DE SAISON</span>
+                        <b>MÉDAiLLON DE CERF, SAUCE GRAND VENEUR</b><br>
+                        <span class="green">GARNiTURE CHASSE</span>
                         <span class="price">48.-</span>
                     </p>
+
                     <!-- les incontournables -->
 
                     <p>
@@ -157,12 +167,6 @@
                         <span class="green">BEURRE MONTELLY, FRiTES MAiSON, LÉGUMES DE SAiSON</span>
                         <span class="price">28.- / +12.-</span>
                     </p>
-
-                    <p>
-                        <b>ESCALOPE DE VEAU VIENNOISE</b><br>
-                        <span class="green">EPINARDS AU BEURRE. POMMES FRITES MAISON</span>
-                        <span class="price">42.-</span>
-                    </p>
                 </span>
                 <span class="c-col-carte-img-container">
                     <img class="c-col-catel"
@@ -180,29 +184,26 @@
                     alt="deserts-txt" />
                 <p>
                     <b>SÉLECTION DE GLACE DE L'ARTISAN GLACIER / LA BOULE</b><br>
-                    <span class="green">CHOCOLAT, BERGAMOTE, PiSTACHE, PÊCHE DE ViGNE, EARL GREY, POiRE,ABRiCTO ,VANiLLE,BOURBON,NOiSETTE</span>
-                    <span class="price">4.-</span>
+                    <span class="green">CHOCOLAT, VANiLLE, CiTRON, POiRE, PÊCHE DE ViGNE,NOiSETTE, PiSTACHE</span>
+                    <span class="price">3.5</span>
                 </p>
                 <p>
-                    <b>CRÈME BRUÉE CITRON ET VANILLE</b><br>
+                    <b>CRÈME BRULÉE VANiLLE</b><br>
                     <span class="price">11.-</span>
-                </p>
-                <p>
-                    <b>ÉCLAIR CRAQUELN AU MCCCA</b><br>
-                    <span class="price">14.-</span>
-                </p>
-
-                <p>
-                    <b>BRIoCHE PERDUE, FRUITS DE SAISON ET VANILE BOURBON</b><br>
-                    <span class="price">12.-</span>
                 </p>
                 <p>
                     <b>LA PROFITEROLE CHOCOLAT VANILLE</b><br>
                     <span class="price">14.-</span>
                 </p>
                 <p>
-                    <b>TOUT EN CHOCOLAT</b><br>
-                    <span class="price">12.-</span>
+                    <b>MONT-BLANC VERMiCELLES DE MARRON</b><br>
+                    <span class="green">DOUBLE CRÈME, MERiNGUE SUiSSE</span>
+                    <span class="price">14.-</span>
+                </p>
+                <p>
+                    <b>POiRE AU ViN ROUGE & PORTO</b><br>
+                    <span class="green">GANACHE AU MiEL, ET SABLÉ BRETON</span>
+                    <span class="price">14.-</span>
                 </p>
             </span>
             <span class="m-col col"

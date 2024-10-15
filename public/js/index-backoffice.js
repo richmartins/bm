@@ -12,7 +12,6 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
             input.setAttribute("type", type);
             input.setAttribute("name", `meals[${meal_id}][${name}]`);
             input.setAttribute("value", value);
-            input.setAttribute("required", "required");
 
             if (type == "number") {
                 input.setAttribute("step", "0.01");
@@ -35,7 +34,7 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
         form_meals_grid.appendChild(
             createInput("text", "description", newMealId)
         );
-        form_meals_grid.appendChild(createInput("number", "price", newMealId));
+        form_meals_grid.appendChild(createInput("text", "price", newMealId));
         form_meals_grid.appendChild(
             createInput("hidden", "meal_id", newMealId)
         );

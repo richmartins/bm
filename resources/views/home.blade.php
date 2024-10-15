@@ -86,7 +86,7 @@
                         <p>
                             <b>{{ $entree->title }}</b><br>
                             <span class="green">{{ $entree->description }}</span>
-                            <span class="price">{{ $entree->price }}.-</span>
+                            <span class="price">{{ $entree->price }}</span>
                         </p>
                     @endforeach
 
@@ -108,7 +108,7 @@
                     <p>
                         <b>{{ $main->title }}</b><br>
                         <span class="green">{{ $main->description }}</span>
-                        <span class="price">{{ $main->price }}.-</span>
+                        <span class="price">{{ $main->price }}</span>
                     </p>
                 @endforeach
 
@@ -178,7 +178,7 @@
                     <p>
                         <b>{{ $dessert->title }}</b><br>
                         <span class="green">{{ $dessert->description }}</span>
-                        <span class="price">{{ $dessert->price }}.-</span>
+                        <span class="price">{{ $dessert->price }}</span>
                     </p>
                 @endforeach
                 {{-- <p>

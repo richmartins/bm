@@ -1,8 +1,17 @@
+const removeBtnHandle = (e) => {
+    const form_meals_grid = e.target.parentElement.parentElement;
+
+    console.log(e.target.parentElement.parentElement);
+    console.log(form_meals_grid);
+
+    if (form_meals_grid) {
+        form_meals_grid.remove();
+    }
+};
+
 /* add more meal button behiavor */
 document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
     plus_btn.addEventListener("click", (e) => {
-        e.preventDefault();
-
         const form_meals_grid = document.createElement("div");
         form_meals_grid.classList.add("bo-form-meals-grid");
 
@@ -12,20 +21,21 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
             input.setAttribute("type", type);
             input.setAttribute("name", `meals[${meal_id}][${name}]`);
             input.setAttribute("value", value);
-            
-            if (name === "title") {
-                input.setAttribute('required', true);
+
+            if (name === "title" || name === "price") {
+                input.setAttribute("required", true);
             }
 
             return input;
         };
 
-        const lastMealId = e.target.parentElement.parentElement
-            .querySelector(
-                '.bo-form-meals-grid:last-child input[name^="meals["]'
-            )
-            ?.getAttribute("name")
-            .match(/\d+/g)[0] || 0;
+        const lastMealId =
+            e.target.parentElement.parentElement
+                .querySelector(
+                    '.bo-form-meals-grid:last-child input[name^="meals["]'
+                )
+                ?.getAttribute("name")
+                .match(/\d+/g)[0] || 0;
         const newMealId = parseInt(lastMealId) + 1;
 
         form_meals_grid.appendChild(createInput("text", "title", newMealId));
@@ -37,13 +47,21 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
             createInput("hidden", "meal_id", newMealId)
         );
 
-        const removeBtn = document.createElement("div");
-        removeBtn.classList.add("bo-input", "bo-remove-btn");
-        removeBtn.innerHTML = `<button id="remove_meal_${newMealId}">-</button>`;
-        form_meals_grid.appendChild(removeBtn);
+        const removeButtonContainer = document.createElement("div");
+        removeButtonContainer.classList.add("bo-input", "bo-remove-btn");
+
+        const removeButton = document.createElement("button");
+        removeButton.setAttribute("type", "button");
+        removeButton.setAttribute("id", `remove_meal_${newMealId}`);
+        removeButton.innerText = "-";
+        removeButton.addEventListener("click", removeBtnHandle);
+        removeButtonContainer.appendChild(removeButton);
+
+        form_meals_grid.appendChild(removeButtonContainer);
         e.target.parentElement.parentElement
             .querySelector(".bo-meals-container")
             .appendChild(form_meals_grid);
+
     });
 });
 
@@ -51,14 +69,5 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
 document
     .querySelectorAll("button.bo-input.bo-remove-btn")
     .forEach((minus_btn) => {
-        minus_btn.addEventListener("click", (e) => {
-            e.preventDefault();
-            const form_meals_grid =
-                e.target.parentElement.parentElement.querySelector(
-                    ".bo-form-meals-grid:last-child"
-                );
-            if (form_meals_grid) {
-                form_meals_grid.remove();
-            }
-        });
+        minus_btn.addEventListener("click", removeBtnHandle);
     });

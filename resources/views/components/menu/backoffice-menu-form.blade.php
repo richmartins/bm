@@ -22,7 +22,7 @@
                 value="{{ $menu->id }}" />
 
             <div class="bo-plus-btn-right">
-                <button id="add_more_meal_{{ $menu->id }}">+</button>
+                <button type="button" id="add_more_meal_{{ $menu->id }}">+</button>
             </div>
             <span class="bo-form-submit-group">
                 <input type="submit"

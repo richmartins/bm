@@ -12,10 +12,12 @@
     >
     <input class="bo-input bo-input-number"
         type="text"
+        required
         name="meals[{{ $meal->id }}][price]"
         value="{{ $meal->price }}"
     >
     <button class="bo-input bo-remove-btn"
+        type="button"
         id="remove_meal_{{ $meal->id }}">
         -
     </button>

@@ -27,7 +27,7 @@ document.querySelectorAll(".bo-plus-btn-right > button").forEach((plus_btn) => {
             .querySelector(
                 '.bo-form-meals-grid:last-child input[name^="meals["]'
             )
-            .getAttribute("name")
+            ?.getAttribute("name")
             .match(/\d+/g)[0] || 0;
         const newMealId = parseInt(lastMealId) + 1;
 

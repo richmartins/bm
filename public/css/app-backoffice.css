@@ -29,16 +29,6 @@ body {
     line-height: 17pt;
 }
 
-h1,
-h2,
-h3,
-h4,
-p
-{
-    margin: 0;
-    padding: 0;
-}
-
 a {
     color: black;
     text-decoration: underline;
@@ -79,7 +69,6 @@ nav#nav-bar ul li {
     width: 25%;
     cursor: pointer;
 }
-
 
 #nav-bar li svg {
     height: 35px;
@@ -128,6 +117,9 @@ header {
     min-height: 80svh;
 }
 
+.bo-text {
+    font-size: .8em;
+}
 
 main {
     width: 100%;
@@ -145,7 +137,6 @@ main {
 
 .bo-form {
     background-color: #a0aec0;
-    border: 1px solid #4a5568;
     margin: 1em auto;
     width: 90%;
     border-radius: 2px;
@@ -196,6 +187,15 @@ main {
     margin-left: 1em;
 }
 
+.bo-input {
+    border: none;
+    padding: .2em;
+}
+
+.bo-input-number {
+    width: 50%;
+}
+
 .bo-btn-form {
     appearance: none;
     border: 2px solid #B0B0B0FF;
@@ -229,6 +229,29 @@ main {
     border-radius: 2px;
 }
 
+.bo-form-meals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    margin: .5em 0;
+}
+
+.bo-fieldset {
+    border: 1px solid #7d8697;
+    border-radius: 2px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.bo-plus-btn-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bo-remove-btn {
+    width: 20%;
+}
 
 /**** BACKOFFICE END ****/
 /**** RESPONSIVE ****/

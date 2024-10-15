@@ -36,6 +36,12 @@
         </span>
     </form>
 
+    <span class="bo-form">
+       @foreach ($menus as $menu)
+        <x-menu.backoffice-menu-form :menu="$menu" />
+       @endforeach
+    </span>
+
     <form class="bo-form"
         action="{{ route('update-profile') }}"
         method="post"
@@ -109,73 +115,4 @@
                 value="Update" />
         </span>
     </form>
-
-    <form class="bo-form"
-        action="{{ route('update_meals') }}"
-        method="post"
-        name="update-meals">
-        <p>Update meals</p>
-        @if ($errors->any())
-            {!! implode('', $errors->all('<span class="bo-text-danger"><p>:message</p></span>')) !!}
-        @endif
-        @csrf
-
-        @foreach ($meals as $meal)
-            <span class="bo-form-group">
-                <label for="title-{{ $meal->id }}"
-                    class="bo-label">
-                    Title
-                </label>
-                <input class="bo-input"
-                    id="title-{{ $meal->id }}"
-                    type="text"
-                    value="{{ $meal->title }}" />
-            </span>
-            <span class="bo-form-group">
-                <label for="description-{{ $meal->id }}"
-                    class="bo-label">
-                    Description
-                </label>
-                <input class="bo-input"
-                    id="description-{{ $meal->id }}"
-                    type="text"
-                    value="{{ $meal->description }}" />
-            </span>
-            <span class="bo-form-group">
-                <label for="price-{{ $meal->id }}"
-                    class="bo-label">
-                    price
-                </label>
-                <input class="bo-input"
-                    id="price-{{ $meal->id }}"
-                    type="text"
-                    value="{{ $meal->price }}" />
-            </span>
-            <span class="bo-form-group">
-                <label for="category-{{ $meal->id }}"
-                    class="bo-label">
-                    Category
-                </label>
-                <select class="bo-input"
-                    id="category-{{ $meal->id }}"
-                    name="category-{{ $meal->id }}">
-                    @foreach ($categories as $category)
-                        @if ($category->id === $meal->id_category)
-                            <option selected value="{{ $category->id }}">
-                                {{ $category->name }}
-                            </option>
-                        @else
-                            <option value="{{ $category->id }}">
-                                {{ $category->name }}
-                            </option>
-                        @endif
-                    @endforeach
-                </select>
-            </span>
-            <br>
-            <br>
-            <br>
-        @endforeach
-    </form>
-
 </x-layout-backoffice>

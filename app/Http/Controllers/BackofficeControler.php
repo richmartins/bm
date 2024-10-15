@@ -17,15 +17,14 @@ class BackofficeControler extends Controller
     function index()
     {
         $user = User::findOrFail(auth()->user()->id);
-        $meals = MealResource::collection(Meal::all());
-        $categories = MealCategoryResource::collection(MealCategory::all());
+
+        $menus = MealCategoryResource::collection(MealCategory::all());
 
         return view('dashboard')
             ->with([
                 'name' => $user->name,
                 'email' => $user->email,
-                'meals' => $meals,
-                'categories' => $categories,
+                'menus' => $menus,
             ]);
     }
 
@@ -38,6 +37,27 @@ class BackofficeControler extends Controller
         $request->file('new_menu_boissons')?->storeAs(
             'public/menus', 'boissons.pdf'
         );
+
+        return redirect()
+            ->back()
+            ->with([
+                'success' => 'update menu successfully'
+            ]);
+    }
+
+    function update_season_menu(Request $request): RedirectResponse
+    {
+        //TODO: request validation
+        $category = MealCategory::findOrFail($request->meal_category_id);
+        $category->meals()->delete();
+
+        foreach ($request->meals as $meal) {
+            $category->meals()->create([
+                'title' => $meal['title'],
+                'description' => $meal['description'],
+                'price' => $meal['price'],
+            ]);
+        }
 
         return redirect()
             ->back()

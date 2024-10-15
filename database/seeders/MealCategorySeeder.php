@@ -15,7 +15,6 @@ class MealCategorySeeder extends Seeder
      */
     public function run()
     {
-        //
         \App\Models\MealCategory::factory()->create([
             'name' => 'entrée'
         ]);

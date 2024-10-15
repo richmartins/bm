@@ -44,6 +44,6 @@ Route::group([
     Route::post('menus/update', [BackofficeControler::class, 'update_menu'])
         ->name('update_menu');
 
-    Route::post('menus/update-meals', [MealController::class, 'update-meals'])
-        ->name('update_meals');
+    Route::post('menus/update_season_menu/', [BackofficeControler::class, 'update_season_menu'])
+        ->name('update_season_menu');
 });

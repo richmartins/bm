@@ -24,5 +24,7 @@
             {{ $slot }}
         </main>
     </div>
+
+    <script type="text/javascript" src="{{ asset('js/index-backoffice.js') }}"></script>
 </body>
 </html>

@@ -21,6 +21,7 @@ yarn-error.log
 .DS_Store
 
 .htaccess
+public/.htaccess
 .htaccess.bk
 .infomaniak-maintenance.html
 .user.ini

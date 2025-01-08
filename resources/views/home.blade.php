@@ -45,9 +45,9 @@
             </span>
         </div>
     </section>
-    <section id="carte">
+    <section id="menu">
         <div class="row">
-            <span class="c-col col">
+            <span class="m-col col menu-font">
                 <img class="col-txt-img"
                     src="{{ asset('/storage/img/la_carte.png') }}"
                     alt="plats-txt" />
@@ -75,64 +75,6 @@
                     alliant le charme local à un service de qualité. Nous vous souhaitons la bienvenue et sommes
                     impatients de vous faire découvrir notre univers culinaire.
                 </p>
-            </span>
-            <span class="c-col col c-col-carte menu-font">
-                <span>
-                    <img class="col-txt-img"
-                        src="{{ asset('/storage/img/entree.png') }}"
-                        alt="plats-txt" />
-
-                    @foreach ($menus[0]->meals as $entree)
-                        <p>
-                            <b>{{ $entree->title }}</b><br>
-                            <span class="green">{{ $entree->description }}</span>
-                            <span class="price">{{ $entree->price }}</span>
-                        </p>
-                    @endforeach
-
-                </span>
-                <span class="c-col-carte-img-container">
-                    <img class="c-col-catel"
-                        src="{{ asset('/storage/img/fleche.png') }}"
-                        alt="arrow-down" />
-                </span>
-            </span>
-            <span class="c-col col c-col-carte menu-font">
-
-                <span>
-                    <img class="col-txt-img"
-                        src="{{ asset('/storage/img/plats.png') }}"
-                        alt="plats-txt" />
-
-                    @foreach ($menus[1]->meals as $main)
-                        <p>
-                            <b>{{ $main->title }}</b><br>
-                            <span class="green">{{ $main->description }}</span>
-                            <span class="price">{{ $main->price }}</span>
-                        </p>
-                    @endforeach
-                </span>
-                <span class="c-col-carte-img-container">
-                    <img class="c-col-catel"
-                        src="{{ asset('/storage/img/fleche.png') }}"
-                        alt="arrow-down" />
-                </span>
-            </span>
-        </div>
-    </section>
-    <section id="menu">
-        <div class="row">
-            <span class="m-col col menu-font">
-                <img class="m-col-txt-img"
-                    src="{{ asset('/storage/img/desserts.png') }}"
-                    alt="deserts-txt" />
-                @foreach ($menus[2]->meals as $dessert)
-                    <p>
-                        <b>{{ $dessert->title }}</b><br>
-                        <span class="green">{{ $dessert->description }}</span>
-                        <span class="price">{{ $dessert->price }}</span>
-                    </p>
-                @endforeach
             </span>
             <span class="m-col col"
                 id="link-menus">

@@ -429,19 +429,19 @@ footer {
         object-fit: cover;
     }
 
-    #link-menus {
+    #carte {
         margin: 0 !important;
     }
 
-    #link-menus > a:first-child {
+    #carte > a:first-child {
         border-top: 2px solid rgb(149, 149, 149);
     }
 
-    #link-menus > a {
+    #carte > a {
         padding: 2em 2em;
         display: unset;
     }
-    #link-menus > a svg {
+    #carte > a svg {
         height: unset;
         margin: unset;
     }

@@ -77,7 +77,7 @@
                 </p>
             </span>
             <span class="m-col col"
-                id="link-menus">
+                id="carte">
                 <a href="{{ asset('/storage/menus/semaine.pdf') }}"
                     target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg"

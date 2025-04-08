@@ -19,6 +19,18 @@
                 name="new_menu_semaine"
                 type="file" />
         </span>
+
+        <span class="bo-form-group">
+            <label for="new_menu_brunch"
+                class="bo-label">
+                Menu brunch
+            </label>
+            <input id="new_menu_brunch"
+                class="bo-input"
+                name="new_menu_brunch"
+                type="file" />
+        </span>
+
         <span class="bo-form-group">
             <label for="new_menu_boissons"
                 class="bo-label">
@@ -36,11 +48,11 @@
         </span>
     </form>
 
-    <span class="bo-form">
+    {{-- <span class="bo-form">
        @foreach ($menus as $menu)
         <x-menu.backoffice-menu-form :menu="$menu" />
        @endforeach
-    </span>
+    </span> --}}
 
     <form class="bo-form"
         action="{{ route('update-profile') }}"

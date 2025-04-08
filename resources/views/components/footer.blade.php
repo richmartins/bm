@@ -1,7 +1,8 @@
 <footer>
     <div class="footer-container">
         <div class="col data">
-        Chem. de Montelly 1,<br>1007 Lausanne<br>Réservation uniquement<br>par téléphone<br><a href="tel:021 625 03 52">021 625 03 52</a>
+        {{-- Chem. de Montelly 1,<br>1007 Lausanne<br>Réservation uniquement<br>par téléphone<br>
+        <a href="tel:021 625 03 52">021 625 03 52</a> --}}
         </div>
         <div class="col horaire">
             <b>Horaire</b><br>

@@ -488,6 +488,17 @@ footer {
         padding: 1.2em 0;
     }
 
+   #carte > .row span.col.m-col span:first-child
+    {
+        border-top: 2px solid rgb(149, 149, 149);
+    }
+    
+
+   #carte > .row span.col.m-col span a {
+        font-size: 1.0em;
+   }
+
+
     .coordinate-map-container {
         border-top: 2px solid rgb(149, 149, 149);
         height: 35vh;

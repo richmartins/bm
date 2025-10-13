@@ -7,11 +7,15 @@
         <div class="col horaire">
             <b>Horaire</b><br>
             <div class="horaire-row">
+                <span>Lundi</span>
+                <span><b>08h00 - 16h00</b></span>
+            </div>
+            <div class="horaire-row">
                 <span>Mardi - Samedi</span>
                 <span><b>08h30 - 00h00</b></span>
             </div>
             <div class="horaire-row">
-                <span>Dimanche - Lundi</span>
+                <span>Dimanche</span>
                 <span><b>Fermé</b></span>
             </div>
         </div>
